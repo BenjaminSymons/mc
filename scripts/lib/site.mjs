@@ -9,7 +9,7 @@ export function chapterDeltas(data) {
   const last = data.chapters.length;
   const deltas = data.chapters.map(c => ({
     ch: c.ch,
-    chapter: { title: c.title, recap: c.recap, disc: c.disc, track: c.track },
+    chapter: { title: c.title, recap: c.recap },
   }));
   const push = (ch, field, value) => {
     if (ch < 1 || ch > last) throw new Error(`entry tagged ch ${ch} is outside chapters 1-${last}`);
@@ -54,8 +54,5 @@ export function chapterDeltas(data) {
 
 // Non-spoiler facts the page needs before decoding anything.
 export function manifest(data) {
-  return {
-    last: data.chapters.length,
-    tracks: data.chapters.map(c => [c.disc, c.track]),
-  };
+  return { last: data.chapters.length };
 }

@@ -190,7 +190,7 @@ function renderPicker() {
 
 function renderRecap() {
   const c = state.chapters[sel];
-  $('recapLab').textContent = `Chapter ${sel} · disc ${c.disc}, track ${c.track}`;
+  $('recapLab').textContent = `Recap of chapter ${sel}`;
   $('recapTitle').textContent = c.title;
   $('recapText').textContent = c.recap;
   $('earlierBox').hidden = sel === 1;

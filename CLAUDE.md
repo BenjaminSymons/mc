@@ -133,13 +133,13 @@ if `docs/` is stale.
 - Spoiler protection: `scripts/lib/site.mjs` splits the data into one payload per chapter holding
   only what that chapter adds (`docs/data/NNN.txt`, base64 + XOR keyed by chapter). The page
   fetches and decodes chapters 1..N only, and folds them together. `docs/data/manifest.json` holds
-  only the chapter count and disc/track numbers. The picker shows titles only up to the chosen
-  chapter. Never publish `data/` or `source/` on the site.
+  only the chapter count. The picker shows titles only up to the chosen chapter. Never publish
+  `data/` or `source/` on the site.
 - Mobile-first; the prototype's look (IM Fell English + Alegreya Sans, group colours, light/dark
   tokens).
 - Features: sound-alike search (substring + Levenshtein) over people and glossary; chapter picker
-  grouped by tens (no disc numbers; titles hidden past the chosen chapter), with prev/next, saved to localStorage; disc and track for the chosen chapter;
-  recap plus collapsible earlier recaps; "This chapter only" filter; Hear button (speechSynthesis,
+  grouped by tens, with prev/next, saved to localStorage, titles hidden past the chosen chapter;
+  no disc or track numbers anywhere (meaningless for the digital audiobook); recap plus collapsible earlier recaps; "This chapter only" filter; Hear button (speechSynthesis,
   fr-FR); per-card chapter log with current-chapter highlight; "New in chapter N" / "First
   mentioned" badges; earlier names; `sameAs` links; relations list with jump links; gated
   glossary with per-chapter notes.
