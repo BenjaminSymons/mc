@@ -1,27 +1,62 @@
-{
- "circle": {
-  "title": "Edmond and those close to him",
-  "desc": "",
-  "color": "var(--circle)"
+[
+ {
+  "id": "circle",
+  "color": "var(--circle)",
+  "ch": 1,
+  "labels": [
+   {
+    "ch": 1,
+    "title": "Edmond and those close to him",
+    "desc": ""
+   }
+  ]
  },
- "plot": {
-  "title": "The three at the tavern",
-  "desc": "Each has a reason to resent Edmond.",
-  "color": "var(--plot)"
+ {
+  "id": "plot",
+  "color": "var(--plot)",
+  "ch": 1,
+  "labels": [
+   {
+    "ch": 1,
+    "title": "The three at the tavern",
+    "desc": "Each has a reason to resent Edmond."
+   }
+  ]
  },
- "law": {
-  "title": "Villefort and the royalists",
-  "desc": "Villefort, his fiancée’s family, and those loyal to the king.",
-  "color": "var(--law)"
+ {
+  "id": "law",
+  "color": "var(--law)",
+  "ch": 1,
+  "labels": [
+   {
+    "ch": 1,
+    "title": "Villefort and the royalists",
+    "desc": "Villefort, his fiancée’s family, and those loyal to the king."
+   }
+  ]
  },
- "prison": {
-  "title": "The Château d’If",
-  "desc": "",
-  "color": "var(--prison)"
+ {
+  "id": "prison",
+  "color": "var(--prison)",
+  "ch": 1,
+  "labels": [
+   {
+    "ch": 1,
+    "title": "The Château d’If",
+    "desc": ""
+   }
+  ]
  },
- "off": {
-  "title": "Named but offstage",
-  "desc": "Talked about, not seen.",
-  "color": "var(--off)"
+ {
+  "id": "off",
+  "color": "var(--off)",
+  "ch": 1,
+  "labels": [
+   {
+    "ch": 1,
+    "title": "Named but offstage",
+    "desc": "Talked about, not seen."
+   }
+  ]
  }
-}
+]

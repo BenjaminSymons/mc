@@ -1,0 +1,10 @@
+{
+  "name": "monte-cristo-companion",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "split": "python scripts/split_chapters.py",
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test \"scripts/**/*.test.mjs\""
+  }
+}

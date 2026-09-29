@@ -3,96 +3,226 @@
   "ch": 1,
   "term": "Marseille",
   "say": "mar-SAY",
-  "text": "Port city in the south of France where the story opens."
+  "forms": [
+   "Marseilles"
+  ],
+  "notes": [
+   {
+    "ch": 1,
+    "text": "Port city in the south of France where the story opens."
+   }
+  ]
  },
  {
   "ch": 1,
   "term": "The Pharaon",
   "say": "fa-ra-OHN",
-  "text": "Morrel’s three-masted merchant ship, returning from Smyrna, Trieste and Naples."
+  "forms": [
+   "Pharaon"
+  ],
+  "notes": [
+   {
+    "ch": 1,
+    "text": "Morrel’s three-masted merchant ship, returning from Smyrna, Trieste and Naples."
+   }
+  ]
  },
  {
   "ch": 1,
   "term": "Elba, Porto-Ferrajo",
   "say": "por-toh feh-RAH-yoh",
-  "text": "Island off Italy where Napoleon is in exile, and its main port."
+  "forms": [
+   "Elba",
+   "Porto-Ferrajo"
+  ],
+  "notes": [
+   {
+    "ch": 1,
+    "text": "Island off Italy where Napoleon is in exile, and its main port."
+   }
+  ]
  },
  {
   "ch": 1,
   "term": "Supercargo",
   "say": "",
-  "text": "The ship’s officer in charge of cargo, trade and accounts. Danglars’s job."
+  "forms": [
+   "supercargo"
+  ],
+  "notes": [
+   {
+    "ch": 1,
+    "text": "The ship’s officer in charge of cargo, trade and accounts. Danglars’s job."
+   }
+  ]
  },
  {
   "ch": 1,
   "term": "Bonapartist / royalist",
   "say": "",
-  "text": "Supporter of Napoleon / supporter of the Bourbon king. In 1815 being thought a Bonapartist is dangerous."
+  "forms": [
+   "Bonapartist",
+   "royalist"
+  ],
+  "notes": [
+   {
+    "ch": 1,
+    "text": "Supporter of Napoleon / supporter of the Bourbon king. In 1815 being thought a Bonapartist is dangerous."
+   }
+  ]
  },
  {
   "ch": 3,
   "term": "Les Catalans",
   "say": "lay ka-ta-LAHN",
-  "text": "Village of Catalan fishing families just outside Marseille. Home of Mercédès and Fernand."
+  "forms": [
+   "Catalans"
+  ],
+  "notes": [
+   {
+    "ch": 3,
+    "text": "Village of Catalan fishing families just outside Marseille. Home of Mercédès and Fernand."
+   }
+  ]
  },
  {
   "ch": 5,
   "term": "La Réserve",
   "say": "la ray-ZAIRV",
-  "text": "Waterside tavern where Edmond and Mercédès hold their betrothal feast."
+  "forms": [
+   "Réserve"
+  ],
+  "notes": [
+   {
+    "ch": 5,
+    "text": "Waterside tavern where Edmond and Mercédès hold their betrothal feast."
+   }
+  ]
  },
  {
   "ch": 6,
   "term": "Procureur du roi",
   "say": "pro-kew-RUR dew RWAH",
-  "text": "Crown prosecutor. Villefort is the deputy (substitut) in Marseille."
+  "forms": [
+   "procureur"
+  ],
+  "notes": [
+   {
+    "ch": 6,
+    "text": "Crown prosecutor. Villefort is the deputy (substitut) in Marseille."
+   }
+  ]
  },
  {
   "ch": 7,
   "term": "Rue Coq-Héron",
   "say": "rew kok ay-ROHN",
-  "text": "Street in Paris where Noirtier lives. The letter was addressed there."
+  "forms": [
+   "Coq-Héron"
+  ],
+  "notes": [
+   {
+    "ch": 7,
+    "text": "Street in Paris where Noirtier lives. The letter was addressed there."
+   }
+  ]
  },
  {
   "ch": 8,
   "term": "Château d’If",
   "say": "sha-TOH DEEF",
-  "text": "Fortress prison on a small island in the bay of Marseille."
+  "forms": [
+   "Château d’If"
+  ],
+  "notes": [
+   {
+    "ch": 8,
+    "text": "Fortress prison on a small island in the bay of Marseille."
+   }
+  ]
  },
  {
   "ch": 8,
   "term": "Cachot",
   "say": "ka-SHOH",
-  "text": "Dungeon: the underground cells below the ordinary prison rooms."
+  "forms": [
+   "cachot"
+  ],
+  "notes": [
+   {
+    "ch": 8,
+    "text": "Dungeon: the underground cells below the ordinary prison rooms."
+   }
+  ]
  },
  {
   "ch": 10,
   "term": "Tuileries",
   "say": "twee-luh-REE",
-  "text": "The royal palace in Paris."
+  "forms": [
+   "Tuileries"
+  ],
+  "notes": [
+   {
+    "ch": 10,
+    "text": "The royal palace in Paris."
+   }
+  ]
  },
  {
   "ch": 11,
   "term": "Golfe-Juan",
   "say": "golf zhwahn",
-  "text": "Bay on the south coast where Napoleon lands, 1 March 1815."
+  "forms": [
+   "Gulf of Juan"
+  ],
+  "notes": [
+   {
+    "ch": 11,
+    "text": "Bay on the south coast where Napoleon lands, 1 March 1815."
+   }
+  ]
  },
  {
   "ch": 11,
   "term": "The Corsican ogre",
   "say": "",
-  "text": "Royalist nickname for Napoleon, who was born on Corsica."
+  "forms": [
+   "Corsican ogre"
+  ],
+  "notes": [
+   {
+    "ch": 11,
+    "text": "Royalist nickname for Napoleon, who was born on Corsica."
+   }
+  ]
  },
  {
   "ch": 13,
   "term": "The Hundred Days",
   "say": "",
-  "text": "Napoleon’s return to power in 1815, ended by his defeat at Waterloo in June."
+  "forms": [
+   "Hundred Days"
+  ],
+  "notes": [
+   {
+    "ch": 13,
+    "text": "Napoleon’s return to power in 1815, ended by his defeat at Waterloo in June."
+   }
+  ]
  },
  {
   "ch": 18,
   "term": "Monte Cristo",
   "say": "MON-tay KREE-stoh",
-  "text": "Small rocky island off the Tuscan coast, south of Elba. Where Faria says the Spada treasure is hidden."
+  "forms": [
+   "Monte Cristo"
+  ],
+  "notes": [
+   {
+    "ch": 18,
+    "text": "Small rocky island off the Tuscan coast, south of Elba. Where Faria says the Spada treasure is hidden."
+   }
+  ]
  }
 ]

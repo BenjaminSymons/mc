@@ -1,121 +1,161 @@
 [
  {
   "ch": 1,
-  "title": "Marseille: The Arrival",
+  "title": "Marseilles - The Arrival",
+  "disc": 1,
+  "track": 1,
   "recap": "Marseille, 24 February 1815. The Pharaon docks with its 19-year-old first mate, Edmond Dantès, in command: Captain Leclère died at sea. The owner, Morrel, is pleased with him and hints he’ll be made captain. Danglars, the supercargo, resents this and makes a point of telling Morrel that Edmond put in at Elba.",
   "verified": false
  },
  {
   "ch": 2,
   "title": "Father and Son",
+  "disc": 1,
+  "track": 6,
   "recap": "Edmond visits his father and finds him short of food: their neighbour Caderousse made the old man repay a debt of Edmond’s. Caderousse calls round, congratulates Edmond with poorly hidden envy, then goes off to talk it over with Danglars.",
   "verified": false
  },
  {
   "ch": 3,
   "title": "The Catalans",
+  "disc": 1,
+  "track": 10,
   "recap": "In the Catalan village outside Marseille, Fernand begs his cousin Mercédès to marry him. She refuses: she loves Edmond. Edmond arrives and the rivalry is plain. Fernand storms off and is called over by Danglars and Caderousse, drinking in a tavern arbour.",
   "verified": false
  },
  {
   "ch": 4,
   "title": "Conspiracy",
+  "disc": 1,
+  "track": 16,
   "recap": "The three drink together. Danglars writes an anonymous letter to the crown prosecutor, using his left hand, saying Edmond is carrying a letter from Elba for Napoleon’s supporters in Paris. He screws it up and throws it aside as if it were a joke. Caderousse, drunk, is led away; Fernand picks up the letter.",
   "verified": false
  },
  {
   "ch": 5,
   "title": "The Marriage Feast",
+  "disc": 2,
+  "track": 3,
   "recap": "The betrothal feast at La Réserve. As the party is about to leave for the town hall, a police commissary arrives and arrests Edmond. Morrel goes to find out why. Caderousse suspects the letter. Old Dantès and Mercédès are left in shock.",
   "verified": false
  },
  {
   "ch": 6,
-  "title": "The Deputy Crown Prosecutor",
+  "title": "The Deputy Procureur du Roi",
+  "disc": 2,
+  "track": 10,
   "recap": "Across town, Villefort is at his own betrothal dinner with Renée de Saint-Méran and her royalist parents, where his father’s revolutionary past comes up. He is called away to deal with Edmond’s case. On the way, Morrel tells him Edmond is innocent.",
   "verified": false
  },
  {
   "ch": 7,
   "title": "The Examination",
+  "disc": 3,
+  "track": 1,
   "recap": "Villefort questions Edmond, finds him honest and is ready to release him, until he reads the letter Edmond was carrying. It is addressed to M. Noirtier in Paris: Villefort’s father. Villefort burns it, makes Edmond promise never to mention it, and has him held anyway.",
   "verified": false
  },
  {
   "ch": 8,
   "title": "The Château d’If",
+  "disc": 3,
+  "track": 6,
   "recap": "That night Edmond is taken by boat to the Château d’If, a fortress prison on an island in the bay. He is locked in a cell, and after threatening a jailer is moved down to a dungeon.",
   "verified": false
  },
  {
   "ch": 9,
   "title": "The Evening of the Betrothal",
+  "disc": 3,
+  "track": 11,
   "recap": "Villefort returns briefly to the Saint-Mérans, then leaves for Paris, intending to be first to warn the king. Mercédès asks him what has become of Edmond and gets no answer. Fernand stays close to her. Old Dantès waits alone for news.",
   "verified": false
  },
  {
   "ch": 10,
   "title": "The King’s Closet at the Tuileries",
+  "disc": 3,
+  "track": 14,
   "recap": "In Paris, Louis XVIII makes light of warnings about Napoleon to his favourite, the Duc de Blacas. Villefort arrives with news of a Bonapartist plot, and the king begins to take it seriously.",
   "verified": false
  },
  {
   "ch": 11,
   "title": "The Corsican Ogre",
+  "disc": 4,
+  "track": 1,
   "recap": "News comes that Napoleon has landed in France. The minister of police, Dandré, is humiliated; Villefort’s early warning wins him the king’s favour. There is talk of General Quesnel, who went to a Bonapartist meeting and was later found dead.",
   "verified": false
  },
  {
   "ch": 12,
   "title": "Father and Son",
+  "disc": 4,
+  "track": 5,
   "recap": "Noirtier calls on Villefort in Paris. Father and son spar over politics; Noirtier hints he knows what happened to Quesnel and says Napoleon will soon be in Paris. Villefort warns him the police have his description. Noirtier shaves, changes clothes and slips away. Villefort heads back to Marseille.",
   "verified": false
  },
  {
   "ch": 13,
   "title": "The Hundred Days",
+  "disc": 4,
+  "track": 9,
   "recap": "Napoleon retakes the throne, then loses it again at Waterloo. Morrel, hoping the new regime will help, asks Villefort to free Edmond; Villefort drafts a petition that makes Edmond look a committed Bonapartist, and keeps it. Old Dantès dies. Danglars leaves for Spain, Fernand and Caderousse are called up, and Mercédès is left alone.",
   "verified": false
  },
  {
   "ch": 14,
   "title": "The Two Prisoners",
+  "disc": 4,
+  "track": 13,
   "recap": "About a year later an inspector of prisons visits the Château d’If. Edmond, prisoner No. 34, begs for a trial; the register describes him as a dangerous Bonapartist. The inspector also sees No. 27, an Italian priest, Abbé Faria, thought mad because he offers a fortune for his freedom.",
   "verified": false
  },
  {
   "ch": 15,
   "title": "Number 34 and Number 27",
+  "disc": 5,
+  "track": 1,
   "recap": "Years pass. Edmond goes from hope to despair and decides to starve himself, then hears scraping in the wall. He digs towards it, and the digger breaks through: Faria, whose escape tunnel has gone the wrong way.",
   "verified": false
  },
  {
   "ch": 16,
   "title": "A Learned Italian",
+  "disc": 5,
+  "track": 8,
   "recap": "Faria shows Edmond his cell and what he has made from almost nothing: tools, pens, ink, a lamp, and a book written on strips of linen. He explains how his tunnel went astray.",
   "verified": false
  },
  {
   "ch": 17,
   "title": "The Abbé’s Chamber",
+  "disc": 5,
+  "track": 14,
   "recap": "Hearing Edmond’s story, Faria works out who wrote the letter, who sent it, and why Villefort buried the case. Edmond is shaken and set on revenge. Faria teaches him languages, science and history, and they plan another escape.",
   "verified": false
  },
  {
   "ch": 18,
   "title": "The Treasure",
+  "disc": 6,
+  "track": 10,
   "recap": "Faria, now partly paralysed after a seizure, tells Edmond about the hidden fortune of Cardinal Spada, poisoned by the Borgias in 1498, and shows him the old paper that says where it lies: the island of Monte Cristo.",
   "verified": false
  },
  {
   "ch": 19,
   "title": "The Third Attack",
+  "disc": 7,
+  "track": 1,
   "recap": "Faria suffers another seizure and dies. Edmond overhears the governor and the prison doctor confirm the death and arrange the burial for that night.",
   "verified": false
  },
  {
   "ch": 20,
   "title": "The Cemetery of the Château d’If",
+  "disc": 7,
+  "track": 6,
   "recap": "Edmond moves Faria’s body to his own bed and sews himself into the burial sack. He is carried out, a cannonball tied to his feet, and thrown from the rocks into the sea, which is the prison’s only cemetery. The chapter ends as he hits the water.",
   "verified": false
  }
