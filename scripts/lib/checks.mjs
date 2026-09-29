@@ -179,7 +179,7 @@ export function checkSchema(ctx, r) {
     if (firstSeen(p) >= NEUTRAL_FROM && !NEUTRAL_PERSON_ID.test(p.id)) {
       r.error('schema', `people[${i}]`, `first seen from ch ${NEUTRAL_FROM}; id must be neutral (p021...)`);
     }
-    if (eachShape(r, `${where}.names`, p.names, { ch: 'ch', name: 'text', say: 'text', fr: 'text', alias: 'texts', forms: 'texts' })) {
+    if (eachShape(r, `${where}.names`, p.names, { ch: 'ch', name: 'text', say: 'string', fr: 'string', alias: 'texts', forms: 'texts' })) {
       p.names.forEach((n, k) => {
         if (n.alias.some(a => a !== a.toLowerCase())) r.error('schema', `${where}.names[${k}].alias`, 'search terms should be lower case');
       });
@@ -548,8 +548,22 @@ export function checkTitles(ctx, r) {
 }
 
 // ---------------------------------------------------------------------------------------------
+// 7. House style: no em dashes, curly quotes only.
 
-export const CHECKS = [checkSchema, checkGating, checkGrounding, checkLeaks, checkNoteGrounding, checkTitles];
+export function checkStyle(ctx, r) {
+  const texts = [...taggedTexts(ctx)];
+  (ctx.data.chapters ?? []).forEach((c, i) => {
+    if (typeof c?.title === 'string') texts.push({ where: `chapters[${i}].title`, ch: c.ch, text: c.title });
+  });
+  for (const t of texts) {
+    if (t.text.includes('—')) r.error('style', at(t.where, t.ch), 'contains an em dash; use a plain hyphen or recast');
+    if (/['"]/.test(t.text)) r.error('style', at(t.where, t.ch), 'contains a straight quote; use ’ “ ”');
+  }
+}
+
+// ---------------------------------------------------------------------------------------------
+
+export const CHECKS = [checkSchema, checkGating, checkGrounding, checkLeaks, checkNoteGrounding, checkTitles, checkStyle];
 
 // source: { index, text: SourceIndex-compatible } — see validate.mjs.
 export function validate(data, source) {

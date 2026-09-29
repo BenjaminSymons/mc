@@ -4,11 +4,7 @@
   "color": "var(--circle)",
   "ch": 1,
   "labels": [
-   {
-    "ch": 1,
-    "title": "Edmond and those close to him",
-    "desc": ""
-   }
+   {"ch": 1, "title": "Edmond and those close to him", "desc": ""}
   ]
  },
  {
@@ -16,35 +12,26 @@
   "color": "var(--plot)",
   "ch": 1,
   "labels": [
-   {
-    "ch": 1,
-    "title": "The three at the tavern",
-    "desc": "Each has a reason to resent Edmond."
-   }
+   {"ch": 1, "title": "Envious of Edmond", "desc": "Each has a reason to resent Edmond."},
+   {"ch": 4, "title": "The three in the arbour", "desc": "Together when the letter against Edmond was written."}
   ]
  },
  {
   "id": "law",
   "color": "var(--law)",
-  "ch": 1,
+  "ch": 5,
   "labels": [
-   {
-    "ch": 1,
-    "title": "Villefort and the royalists",
-    "desc": "Villefort, his fiancée’s family, and those loyal to the king."
-   }
+   {"ch": 5, "title": "Villefort’s world", "desc": "The deputy procureur and those around him."},
+   {"ch": 6, "title": "Villefort’s world", "desc": "Villefort, his family and his fiancée’s family."},
+   {"ch": 10, "title": "Villefort’s world", "desc": "Villefort, his family, his fiancée’s family and the king’s court."}
   ]
  },
  {
   "id": "prison",
   "color": "var(--prison)",
-  "ch": 1,
+  "ch": 8,
   "labels": [
-   {
-    "ch": 1,
-    "title": "The Château d’If",
-    "desc": ""
-   }
+   {"ch": 8, "title": "The Château d’If", "desc": "Staff and prisoners of the fortress."}
   ]
  },
  {
@@ -52,11 +39,7 @@
   "color": "var(--off)",
   "ch": 1,
   "labels": [
-   {
-    "ch": 1,
-    "title": "Named but offstage",
-    "desc": "Talked about, not seen."
-   }
+   {"ch": 1, "title": "Named but offstage", "desc": "Talked about, not seen."}
   ]
  }
 ]

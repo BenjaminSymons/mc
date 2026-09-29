@@ -4,5 +4,5 @@ Chapter reached: 20  <!-- update this as you listen; Claude must not discuss any
 
 ## Data status
 
-- Chapters 1–20: drafted from memory in claude.ai, not yet verified against the text.
+- Chapters 1–20: verified against the text (2026-09-29); validators clean.
 - Chapters 21–117: not started.

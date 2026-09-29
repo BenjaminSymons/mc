@@ -1,228 +1,126 @@
 [
- {
-  "ch": 1,
-  "term": "Marseille",
-  "say": "mar-SAY",
-  "forms": [
-   "Marseilles"
-  ],
-  "notes": [
-   {
-    "ch": 1,
-    "text": "Port city in the south of France where the story opens."
-   }
-  ]
- },
- {
-  "ch": 1,
-  "term": "The Pharaon",
-  "say": "fa-ra-OHN",
-  "forms": [
-   "Pharaon"
-  ],
-  "notes": [
-   {
-    "ch": 1,
-    "text": "Morrel’s three-masted merchant ship, returning from Smyrna, Trieste and Naples."
-   }
-  ]
- },
- {
-  "ch": 1,
-  "term": "Elba, Porto-Ferrajo",
-  "say": "por-toh feh-RAH-yoh",
-  "forms": [
-   "Elba",
-   "Porto-Ferrajo"
-  ],
-  "notes": [
-   {
-    "ch": 1,
-    "text": "Island off Italy where Napoleon is in exile, and its main port."
-   }
-  ]
- },
- {
-  "ch": 1,
-  "term": "Supercargo",
-  "say": "",
-  "forms": [
-   "supercargo"
-  ],
-  "notes": [
-   {
-    "ch": 1,
-    "text": "The ship’s officer in charge of cargo, trade and accounts. Danglars’s job."
-   }
-  ]
- },
- {
-  "ch": 1,
-  "term": "Bonapartist / royalist",
-  "say": "",
-  "forms": [
-   "Bonapartist",
-   "royalist"
-  ],
-  "notes": [
-   {
-    "ch": 1,
-    "text": "Supporter of Napoleon / supporter of the Bourbon king. In 1815 being thought a Bonapartist is dangerous."
-   }
-  ]
- },
- {
-  "ch": 3,
-  "term": "Les Catalans",
-  "say": "lay ka-ta-LAHN",
-  "forms": [
-   "Catalans"
-  ],
-  "notes": [
-   {
-    "ch": 3,
-    "text": "Village of Catalan fishing families just outside Marseille. Home of Mercédès and Fernand."
-   }
-  ]
- },
- {
-  "ch": 5,
-  "term": "La Réserve",
-  "say": "la ray-ZAIRV",
-  "forms": [
-   "Réserve"
-  ],
-  "notes": [
-   {
-    "ch": 5,
-    "text": "Waterside tavern where Edmond and Mercédès hold their betrothal feast."
-   }
-  ]
- },
- {
-  "ch": 6,
-  "term": "Procureur du roi",
-  "say": "pro-kew-RUR dew RWAH",
-  "forms": [
-   "procureur"
-  ],
-  "notes": [
-   {
-    "ch": 6,
-    "text": "Crown prosecutor. Villefort is the deputy (substitut) in Marseille."
-   }
-  ]
- },
- {
-  "ch": 7,
-  "term": "Rue Coq-Héron",
-  "say": "rew kok ay-ROHN",
-  "forms": [
-   "Coq-Héron"
-  ],
-  "notes": [
-   {
-    "ch": 7,
-    "text": "Street in Paris where Noirtier lives. The letter was addressed there."
-   }
-  ]
- },
- {
-  "ch": 8,
-  "term": "Château d’If",
-  "say": "sha-TOH DEEF",
-  "forms": [
-   "Château d’If"
-  ],
-  "notes": [
-   {
-    "ch": 8,
-    "text": "Fortress prison on a small island in the bay of Marseille."
-   }
-  ]
- },
- {
-  "ch": 8,
-  "term": "Cachot",
-  "say": "ka-SHOH",
-  "forms": [
-   "cachot"
-  ],
-  "notes": [
-   {
-    "ch": 8,
-    "text": "Dungeon: the underground cells below the ordinary prison rooms."
-   }
-  ]
- },
- {
-  "ch": 10,
-  "term": "Tuileries",
-  "say": "twee-luh-REE",
-  "forms": [
-   "Tuileries"
-  ],
-  "notes": [
-   {
-    "ch": 10,
-    "text": "The royal palace in Paris."
-   }
-  ]
- },
- {
-  "ch": 11,
-  "term": "Golfe-Juan",
-  "say": "golf zhwahn",
-  "forms": [
-   "Gulf of Juan"
-  ],
-  "notes": [
-   {
-    "ch": 11,
-    "text": "Bay on the south coast where Napoleon lands, 1 March 1815."
-   }
-  ]
- },
- {
-  "ch": 11,
-  "term": "The Corsican ogre",
-  "say": "",
-  "forms": [
-   "Corsican ogre"
-  ],
-  "notes": [
-   {
-    "ch": 11,
-    "text": "Royalist nickname for Napoleon, who was born on Corsica."
-   }
-  ]
- },
- {
-  "ch": 13,
-  "term": "The Hundred Days",
-  "say": "",
-  "forms": [
-   "Hundred Days"
-  ],
-  "notes": [
-   {
-    "ch": 13,
-    "text": "Napoleon’s return to power in 1815, ended by his defeat at Waterloo in June."
-   }
-  ]
- },
- {
-  "ch": 18,
-  "term": "Monte Cristo",
-  "say": "MON-tay KREE-stoh",
-  "forms": [
-   "Monte Cristo"
-  ],
-  "notes": [
-   {
-    "ch": 18,
-    "text": "Small rocky island off the Tuscan coast, south of Elba. Where Faria says the Spada treasure is hidden."
-   }
-  ]
- }
+ {"ch": 1, "term": "Marseilles", "say": "mar-SAY", "forms": ["Marseilles"], "notes": [
+  {"ch": 1, "text": "Port city in the south of France where the story opens. French spelling Marseille; the final s is silent."}
+ ]},
+ {"ch": 1, "term": "The Pharaon", "say": "fa-ra-OHN", "forms": ["Pharaon"], "notes": [
+  {"ch": 1, "text": "Morrel’s three-masted merchant ship, returning from Smyrna, Trieste and Naples."}
+ ]},
+ {"ch": 1, "term": "Elba, Porto-Ferrajo", "say": "EL-bah; POR-toh feh-RAH-yoh", "forms": ["Elba", "Porto-Ferrajo"], "notes": [
+  {"ch": 1, "text": "Island off Italy where Napoleon lives in exile, and its main port."}
+ ]},
+ {"ch": 1, "term": "Supercargo", "say": "", "forms": ["supercargo"], "notes": [
+  {"ch": 1, "text": "The ship’s officer in charge of cargo, trade and accounts. Danglars’s job."}
+ ]},
+ {"ch": 1, "term": "Château d’If", "say": "sha-TOH DEEF", "forms": ["Château d’If"], "notes": [
+  {"ch": 1, "text": "Fortress on a small rock in the sea off Marseilles."},
+  {"ch": 8, "text": "Used as a prison for political prisoners."}
+ ]},
+ {"ch": 1, "term": "Monte Cristo", "say": "MON-tay KREE-stoh", "forms": ["Monte Cristo"], "notes": [
+  {"ch": 1, "text": "A small island. Edmond once proposed stopping there with Danglars to settle a quarrel."},
+  {"ch": 18, "text": "Where Faria says the Spada treasure lies hidden, in caves."},
+  {"ch": 19, "text": "A deserted, roughly cone-shaped rock between Corsica and Elba. Edmond has often sailed past it and once landed there."}
+ ]},
+ {"ch": 1, "term": "The Catalans", "say": "KAT-uh-lanz", "forms": ["Catalans"], "notes": [
+  {"ch": 1, "text": "The Catalan village just outside Marseilles, where Mercédès lives."},
+  {"ch": 3, "text": "Settled long ago by people from Spain, who keep their own language and customs and marry among themselves."}
+ ]},
+ {"ch": 2, "term": "La Réserve", "say": "lah ray-ZAIRV", "forms": ["Réserve"], "notes": [
+  {"ch": 2, "text": "An inn near the Catalans with an arbour, where Danglars and Caderousse sit and drink."},
+  {"ch": 5, "text": "Edmond and Mercédès hold their wedding feast here."}
+ ]},
+ {"ch": 2, "term": "Francs, sous, louis, crowns", "say": "", "forms": ["francs", "louis"], "notes": [
+  {"ch": 2, "text": "French money. A franc is 20 sous; a louis is a gold coin worth 20 francs."},
+  {"ch": 8, "text": "A crown is three francs, so Edmond’s offer of a hundred crowns to the jailer is 300 francs."}
+ ]},
+ {"ch": 2, "term": "Allées de Meilhan", "say": "a-LAY duh may-YAHN", "forms": ["Allées de Meilhan"], "notes": [
+  {"ch": 2, "text": "Street in Marseilles where Old Dantès lives."}
+ ]},
+ {"ch": 4, "term": "Bonapartist", "say": "", "forms": ["Bonapartist"], "notes": [
+  {"ch": 4, "text": "A supporter of Napoleon. With the Bourbon king back on the throne, being thought one is dangerous; the king’s supporters are royalists."}
+ ]},
+ {"ch": 4, "term": "Procureur du roi", "say": "pro-kew-RUR dew RWAH", "forms": ["procureur"], "notes": [
+  {"ch": 4, "text": "The crown prosecutor, called “the king’s attorney” in this translation. Danglars addresses his letter to him."},
+  {"ch": 6, "text": "Villefort is his deputy in Marseilles."}
+ ]},
+ {"ch": 6, "term": "Girondin", "say": "zhee-rohn-DAN", "forms": ["Girondin"], "notes": [
+  {"ch": 6, "text": "Member of a moderate republican faction in the French Revolution. Many were sent to the guillotine in the Terror."}
+ ]},
+ {"ch": 6, "term": "Cedant arma togæ", "say": "KAY-dant AR-mah TOH-guy", "forms": ["Cedant arma"], "notes": [
+  {"ch": 6, "text": "Latin: “let arms yield to the toga”, meaning soldiers give way to civil authority."}
+ ]},
+ {"ch": 6, "term": "Holy Alliance", "say": "", "forms": ["Holy Alliance"], "notes": [
+  {"ch": 6, "text": "The league of European monarchs against Napoleon. The dinner guests have heard it plans to move him from Elba to Saint Helena, far off in the South Atlantic."}
+ ]},
+ {"ch": 7, "term": "Rue Coq-Héron", "say": "rew kok ay-ROHN", "forms": ["Coq-Héron"], "notes": [
+  {"ch": 7, "text": "Street in Paris. The letter from Elba was addressed to Noirtier at No. 13."}
+ ]},
+ {"ch": 7, "term": "Palais de Justice", "say": "pa-LAY duh zhew-STEESS", "forms": ["Palais de Justice"], "notes": [
+  {"ch": 7, "text": "The law courts of Marseilles. Villefort’s house adjoins them, and Edmond is held there."}
+ ]},
+ {"ch": 7, "term": "Carbonari", "say": "kar-bo-NAH-ree", "forms": ["Carbonari"], "notes": [
+  {"ch": 7, "text": "Secret revolutionary societies in Italy and France."}
+ ]},
+ {"ch": 8, "term": "Gendarme", "say": "ZHAHN-darm", "forms": ["gendarme"], "notes": [
+  {"ch": 8, "text": "A member of France’s military police."}
+ ]},
+ {"ch": 8, "term": "Abbé", "say": "ab-BAY", "forms": ["abbé"], "notes": [
+  {"ch": 8, "text": "French title for a priest."}
+ ]},
+ {"ch": 9, "term": "Tuileries", "say": "twee-luh-REE", "forms": ["Tuileries"], "notes": [
+  {"ch": 9, "text": "The royal palace in Paris."},
+  {"ch": 10, "text": "The king’s “closet” is his small private study there."}
+ ]},
+ {"ch": 9, "term": "Keeper of the seals", "say": "", "forms": ["keeper of the seals"], "notes": [
+  {"ch": 9, "text": "The minister of justice, who can see the king at any hour."}
+ ]},
+ {"ch": 9, "term": "The Corsican ogre", "say": "", "forms": ["Corsican ogre"], "notes": [
+  {"ch": 9, "text": "Royalist nickname for Napoleon, who was born on Corsica. Royalists also call him “the usurper”."}
+ ]},
+ {"ch": 10, "term": "Telegraph", "say": "", "forms": ["telegraph"], "notes": [
+  {"ch": 10, "text": "Not electric: a chain of towers with moving arms that relayed signals across France in a few hours."}
+ ]},
+ {"ch": 11, "term": "Gulf of Juan", "say": "zhwahn", "forms": ["Gulf of Juan"], "notes": [
+  {"ch": 11, "text": "Bay near Antibes on the south coast of France, where Napoleon lands on 1 March 1815."}
+ ]},
+ {"ch": 11, "term": "Legion of Honour", "say": "", "forms": ["Legion of Honor"], "notes": [
+  {"ch": 11, "text": "France’s highest order of merit, founded by Napoleon. The king gives Villefort his own cross."}
+ ]},
+ {"ch": 11, "term": "League", "say": "", "forms": ["leagues"], "notes": [
+  {"ch": 11, "text": "Old measure of distance, about 4 km (2.5 miles)."}
+ ]},
+ {"ch": 11, "term": "Rue Saint-Jacques", "say": "rew san ZHAHK", "forms": ["Rue Saint-Jacques"], "notes": [
+  {"ch": 11, "text": "Street in Paris where General Quesnel had an appointment the night he vanished."},
+  {"ch": 12, "text": "A Bonapartist club meets there at No. 53. Noirtier is its vice-president."}
+ ]},
+ {"ch": 13, "term": "The Hundred Days", "say": "", "forms": ["Hundred Days"], "notes": [
+  {"ch": 13, "text": "Napoleon’s return to power in 1815, ended by his defeat at Waterloo in June."}
+ ]},
+ {"ch": 13, "term": "Fenestrelles, Pignerol, Sainte-Marguérite", "say": "fuh-nuh-STREL, peen-yuh-ROL, sant mar-gay-REET", "forms": ["Fenestrelles"], "notes": [
+  {"ch": 13, "text": "Fortresses used as state prisons. Villefort names them to Morrel as places Edmond may have been sent."},
+  {"ch": 16, "text": "Faria was held at Fenestrelle for three years before the Château d’If."}
+ ]},
+ {"ch": 14, "term": "Piombino", "say": "pyom-BEE-noh", "forms": ["Piombino"], "notes": [
+  {"ch": 14, "text": "Port on the Italian coast opposite Elba, where Faria was arrested."}
+ ]},
+ {"ch": 16, "term": "Maigre days", "say": "MAY-gruh", "forms": ["maigre"], "notes": [
+  {"ch": 16, "text": "Fast days, when Catholics ate fish instead of meat. Faria makes pens from the fish."}
+ ]},
+ {"ch": 17, "term": "Catalepsy", "say": "KAT-uh-lep-see", "forms": ["catalepsy"], "notes": [
+  {"ch": 17, "text": "A fit in which the body goes rigid and seems dead. Faria suffers from it and keeps a red drug to revive him."}
+ ]},
+ {"ch": 18, "term": "Breviary", "say": "BREE-vee-uh-ree", "forms": ["breviary"], "notes": [
+  {"ch": 18, "text": "A priest’s book of daily prayers. The Spada breviary was handed down in the family, with the cardinal’s will inside it."}
+ ]},
+ {"ch": 18, "term": "Sympathetic ink", "say": "", "forms": ["sympathetic ink"], "notes": [
+  {"ch": 18, "text": "Invisible ink that appears when heated. Faria found the will when he used the paper to light a candle."}
+ ]},
+ {"ch": 19, "term": "Monomania", "say": "", "forms": ["monomania"], "notes": [
+  {"ch": 19, "text": "Old medical term for madness on a single subject. The doctor’s verdict on Faria and his treasure."}
+ ]},
+ {"ch": 20, "term": "Mistral", "say": "mee-STRAHL", "forms": ["mistral"], "notes": [
+  {"ch": 20, "text": "Strong, cold north-westerly wind of southern France."}
+ ]},
+ {"ch": 20, "term": "Winding-sheet", "say": "", "forms": ["winding-sheet"], "notes": [
+  {"ch": 20, "text": "A shroud. Here, the sack Faria’s body is sewn into."}
+ ]}
 ]

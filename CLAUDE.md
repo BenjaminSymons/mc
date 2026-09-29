@@ -27,7 +27,8 @@ they have reached.
 - `source/pg1184.txt`: Project Gutenberg #1184, the anonymous 1846 translation. This is the text
   Homewood reads. Chapter numbering matches the audiobook.
 - `source/chapters/NNN.txt` + `index.json`: one file per chapter, produced by
-  `python3 scripts/split_chapters.py`. Chapter 117's file ends with the translator's footnotes.
+  `npm run split` (`python scripts/split_chapters.py`). Generated, not committed. Chapter 117's
+  file ends with the translator's footnotes.
 - `data/tracks.json`: chapter → `{disc, track}` where each chapter starts, taken from the Naxos
   booklet. The booklet itself is not in the repo (copyright, and its notes and track titles
   contain spoilers).
@@ -39,52 +40,66 @@ that is how chapters 1–20 were first written and they need checking.
 
 ## Data (`data/`)
 
-Current shape, extracted from the prototype:
+Every list is sorted by `ch`. "Latest entry ≤ selected chapter wins" applies to `names`, `groups`
+and group `labels`; `roles` and `notes` are a log, shown up to the selected chapter.
 
-- `chapters.json`: `{ch, title, recap, verified}`. Titles must match this translation (see
-  `source/chapters/index.json`); several v1 titles are from other translations.
-- `people.json`: `{id, group, ch, mentioned?, name, say, fr, alias, roles: [[ch, text]], notes: [[ch, text]]}`.
-  `ch` = first on-page appearance; `mentioned` = first time named without appearing. `say` is the
-  pronunciation guide, `fr` what the Hear button speaks, `alias` extra search terms (include likely
-  mishearings).
+- `chapters.json`: `{ch, title, disc, track, recap, verified}`. Titles match
+  `source/chapters/index.json` (dash/colon style may differ; no em dashes). `disc`/`track` are
+  copied from `tracks.json` and checked against it.
+- `people.json`:
+  ```
+  {id, ch, mentioned?,
+   names:  [{ch, name, say, fr, alias: [..], forms: [..]}],
+   groups: [{ch, group}],
+   roles:  [{ch, text}],
+   notes:  [{ch, text, ungrounded?}],
+   sameAs?:    [{ch, id}],
+   grounding?: [{form, textCh, reason}]}
+  ```
+  `ch` = first on-page appearance; `mentioned` = first time named without appearing (must be
+  earlier than `ch`). For people who never appear (group `off`), `ch` is where their part in the
+  story is told and `mentioned` an earlier passing mention. The first `names` and `groups` entries sit at `min(ch, mentioned)`.
+  `say` is the pronunciation guide, `fr` what the Hear button speaks, `alias` lower-case search
+  terms (likely mishearings; never a name the text has not yet given). `forms` are the name
+  strings exactly as the text uses them; they drive the grounding and leak checks, so keep them
+  distinctive (`old Dantès`, not `Dantès`, for the father). A person can have `forms: []` while
+  unnamed. `grounding` records a deliberate mismatch between a form's first occurrence in the
+  text (`textCh`, or null) and the chapter the data reveals it, with the reason. `ungrounded` on
+  a note says why a person it names is not named in that chapter's text. `sameAs` links two cards
+  from chapter `ch`: before it the UI shows them as unrelated and neither card's text may name
+  the other.
 - `relations.json`: `{from, verb, to, ch}`, read as "from verb to".
-- `glossary.json`: `{ch, term, say, text}`.
-- `groups.json`: display groups and colours.
-- `tracks.json`: as above.
+- `glossary.json`: `{ch, term, say, forms: [..], notes: [{ch, text}]}`. The entry may not appear
+  before the text uses its forms.
+- `groups.json`: `[{id, color, ch, labels: [{ch, title, desc}]}]`. Labels are gated like
+  everything else, so a group can be introduced or renamed without giving anything away early.
+- `tracks.json`: source, as above.
 
-Extensions needed as the book goes on (design these generically):
+Ids: people and groups first seen from chapter 21 use neutral ids (`p021`…, `g001`…).
+## Validation
 
-- A person's displayed name, pronunciation and search terms can change by chapter:
-  `names: [{ch, name, say, fr, alias}]`, latest entry ≤ selected chapter wins.
-- Two cards can turn out to be the same person, or linked in a way the reader learns later:
-  `sameAs: [{ch, id}]` (or similar). Before that chapter the UI must show them as unrelated; from
-  it, link or merge them.
-- A person's group can change by chapter: `groups: [[ch, group]]`.
-- Groups themselves may need to appear from a chapter onwards, with descriptions that give
-  nothing away early.
-- Add `disc`/`track` to each chapter from `tracks.json`.
+`npm run validate` (`node scripts/validate.mjs`, `--errors` for errors only) runs after every
+batch and exits non-zero on errors. `npm test` tests the validators themselves. Checks, in
+`scripts/lib/checks.mjs`:
 
-Convert the prototype's arrays to objects where that makes validation easier.
+1. **Schema**: required fields, types, unknown fields, known ids and groups, chapters in 1–117,
+   sorted lists, neutral ids, nothing tagged past the last chapter in `chapters.json`.
+2. **Internal gating**: every name, group, role, note, relation, `sameAs` and glossary note is
+   tagged at or after the chapter where everyone it refers to is visible. Before a `sameAs` link,
+   neither card's text names the other.
+3. **Grounding of first appearances**: each form first occurs in the source in the chapter of the
+   `names` entry that introduces it, unless a `grounding` override (with reason) says otherwise.
+   Glossary forms must occur in the text by the entry's chapter.
+4. **Name leaks**: no text tagged chapter N (recaps, names, aliases, roles, notes, relation verbs,
+   glossary, group labels) contains a form the data reveals only after N. Matching ignores case,
+   accents and apostrophe style.
+5. **Note grounding (warning)**: each person named in a note or recap tagged N (and the note's
+   owner) is named in chapter N's text, or the note has `ungrounded`.
+6. **Titles**: titles match `index.json`; disc/track match `tracks.json`.
+7. **Style**: no em dashes, no straight quotes in data text.
 
-## Validation (`scripts/validate.*`)
-
-Build these before extending past chapter 20, then run them after every batch. Exit non-zero on
-errors; warnings for heuristics.
-
-1. **Schema**: required fields, types, known ids and groups, chapters in 1–117.
-2. **Internal gating**: every note, role, name entry, relation and glossary item is tagged at or
-   after the chapter where everyone it refers to is visible. Relations need both ends visible.
-3. **Grounding of first appearances**: find the first chapter in `source/chapters` where each
-   name/alias actually occurs; compare with `ch`/`mentioned`. Flag mismatches. Allow an explicit
-   override field with a reason where a name appears early in a different sense.
-4. **Name leaks**: no text tagged chapter N (recaps, notes, roles, relation verbs, glossary,
-   group descriptions) contains any name, alias or name-form that is only revealed after N.
-   Untagged text (group descriptions, UI copy) is treated as chapter 1.
-5. **Note grounding (warning)**: each person named in a note tagged chapter N occurs in chapter
-   N's text, or the note says why not.
-6. **Titles**: chapter titles match `index.json`.
-7. **Spoiler-safe output**: the scripts themselves obey the output rule above.
-
+Output is spoiler-safe by construction: chapter numbers, safe ids, field paths and counts only.
+A test feeds sentinel text through every field to prove it.
 ## Workflow for extending chapters
 
 1. Verify chapters 1–20 against the text first. Fix recaps, titles, notes, first-appearance

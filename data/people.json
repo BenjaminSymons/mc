@@ -3,147 +3,46 @@
   "id": "edmond",
   "ch": 1,
   "names": [
-   {
-    "ch": 1,
-    "name": "Edmond Dantès",
-    "say": "ed-MOHN dahn-TESS",
-    "fr": "Edmond Dantès",
-    "alias": [
-     "dantes",
-     "dantez",
-     "edmund",
-     "edmon"
-    ],
-    "forms": [
-     "Edmond",
-     "Dantès"
-    ]
-   }
+   {"ch": 1, "name": "Edmond Dantès", "say": "ed-MOHN dahn-TESS", "fr": "Edmond Dantès", "alias": ["dantes", "dantez", "edmund", "edmon"], "forms": ["Edmond", "Dantès"]}
   ],
-  "groups": [
-   {
-    "ch": 1,
-    "group": "circle"
-   }
-  ],
+  "groups": [{"ch": 1, "group": "circle"}],
   "roles": [
-   {
-    "ch": 1,
-    "text": "First mate of the Pharaon, aged 19"
-   },
-   {
-    "ch": 8,
-    "text": "Prisoner at the Château d’If"
-   },
-   {
-    "ch": 14,
-    "text": "Prisoner No. 34 at the Château d’If"
-   }
+   {"ch": 1, "text": "Mate of the Pharaon"},
+   {"ch": 5, "text": "Mate of the Pharaon, under arrest"},
+   {"ch": 8, "text": "Prisoner at the Château d’If"},
+   {"ch": 14, "text": "Prisoner No. 34 at the Château d’If"}
   ],
   "notes": [
-   {
-    "ch": 1,
-    "text": "Brings the ship home after the captain dies at sea; Morrel means to make him captain. On the captain’s orders he stopped at Elba and came away with a letter for Paris."
-   },
-   {
-    "ch": 2,
-    "text": "Finds his father going hungry because of Caderousse’s demand."
-   },
-   {
-    "ch": 3,
-    "text": "Engaged to Mercédès."
-   },
-   {
-    "ch": 5,
-    "text": "Arrested at his betrothal feast."
-   },
-   {
-    "ch": 7,
-    "text": "Tells Villefort everything. Villefort burns the letter, makes him swear silence and has him held."
-   },
-   {
-    "ch": 8,
-    "text": "Taken to the Château d’If. Moved to a dungeon after threatening a jailer."
-   },
-   {
-    "ch": 14,
-    "text": "Begs a visiting inspector for a trial. The register calls him a dangerous Bonapartist."
-   },
-   {
-    "ch": 15,
-    "text": "Close to starving himself when he hears digging. Meets Faria."
-   },
-   {
-    "ch": 16,
-    "text": "Sees Faria’s cell and inventions."
-   },
-   {
-    "ch": 17,
-    "text": "Learns from Faria who betrayed him and why. Swears revenge and becomes Faria’s pupil."
-   },
-   {
-    "ch": 18,
-    "text": "Told of the Spada treasure on Monte Cristo."
-   },
-   {
-    "ch": 19,
-    "text": "Faria dies."
-   },
-   {
-    "ch": 20,
-    "text": "Takes Faria’s place in the burial sack and is thrown into the sea."
-   }
+   {"ch": 1, "text": "Brings the Pharaon home after the captain’s death. On the dying captain’s orders he stopped at Elba, gave a packet to Marshal Bertrand and spoke with the emperor; Morrel means to make him captain."},
+   {"ch": 2, "text": "Gives his hungry father all the money in his pockets. He turned down dinner with Morrel to come home first, then leaves to see Mercédès."},
+   {"ch": 3, "text": "Plans the wedding feast at La Réserve for tomorrow or the next day, after which he must go to Paris on Captain Leclere’s last errand."},
+   {"ch": 5, "text": "Through Morrel’s influence he may marry Mercédès that afternoon. Arrested at the feast and charged with being a Bonapartist agent."},
+   {"ch": 6, "text": "The anonymous letter reached the king’s attorney’s office, where a secretary ordered his arrest. He is held at Villefort’s house."},
+   {"ch": 7, "text": "Aged nineteen. Tells Villefort how the dying captain sent him to Elba, where he was given a letter for someone in Paris, and does not recognise the writing of the denunciation. Villefort burns the letter, makes him swear to deny it and has him held."},
+   {"ch": 8, "text": "Taken to the Château d’If without trial; he tries to leap overboard on the way. In his cell he offers the jailer a hundred crowns to get word to Mercédès, then threatens him with a stool and is moved to a dungeon."},
+   {"ch": 13, "text": "Stays in his dungeon through the Hundred Days and Waterloo, forgotten."},
+   {"ch": 14, "text": "Begs a visiting inspector for a trial and still speaks well of Villefort, but the register calls him a violent Bonapartist and nothing is done. A year later a new governor knows him only as number 34."},
+   {"ch": 15, "text": "After years alone he tries to starve himself, then hears digging in the wall. He tunnels towards it and talks through the wall with No. 27, who then climbs into his cell."},
+   {"ch": 16, "text": "Faria’s attempt makes him resolve to escape. He proposes breaking into the gallery and killing the sentry; Faria refuses."},
+   {"ch": 17, "text": "Learns from Faria that Danglars wrote the denunciation and that Noirtier is Villefort’s father. Vows revenge, becomes Faria’s pupil, and swears never to leave him while he lives."},
+   {"ch": 18, "text": "At first fears Faria has gone mad again. Hears the story of the Spada treasure on Monte Cristo; Faria promises him half and calls him his son."},
+   {"ch": 19, "text": "Learns the treasure letter by heart. Gives Faria the rest of the drug during his third seizure but cannot save him."},
+   {"ch": 20, "text": "Resolves to live and punish his “executioners”. Takes Faria’s place in the burial sack and is thrown into the sea with a shot tied to his feet."}
   ]
  },
  {
   "id": "father",
   "ch": 2,
   "names": [
-   {
-    "ch": 2,
-    "name": "Old Dantès",
-    "say": "dahn-TESS",
-    "fr": "Dantès",
-    "alias": [
-     "father",
-     "old",
-     "man",
-     "monsieur"
-    ],
-    "forms": [
-     "old Dantès"
-    ]
-   }
+   {"ch": 2, "name": "Old Dantès", "say": "dahn-TESS", "fr": "Dantès", "alias": ["father", "old", "man", "dantes"], "forms": ["old Dantès"]}
   ],
-  "groups": [
-   {
-    "ch": 2,
-    "group": "circle"
-   }
-  ],
-  "roles": [
-   {
-    "ch": 2,
-    "text": "Edmond’s father"
-   }
-  ],
+  "groups": [{"ch": 2, "group": "circle"}],
+  "roles": [{"ch": 2, "text": "Edmond’s father"}],
   "notes": [
-   {
-    "ch": 2,
-    "text": "Elderly and poor, living alone. While Edmond was at sea, Caderousse pressed him to repay a debt of Edmond’s, and he went hungry on what was left."
-   },
-   {
-    "ch": 5,
-    "text": "Sees his son arrested at the feast."
-   },
-   {
-    "ch": 9,
-    "text": "Waits alone for news."
-   },
-   {
-    "ch": 13,
-    "text": "Dies, destitute and grieving. Morrel pays for the funeral."
-   }
+   {"ch": 2, "text": "Lives alone in a small room up four flights of stairs. Of the 200 francs Edmond left him, he paid Caderousse 140 for Edmond’s debt and lived three months on the rest."},
+   {"ch": 5, "text": "Dressed in his best for the wedding. Pleads with the magistrate when Edmond is arrested, and is taken home to the Allées de Meilhan nearly lifeless."},
+   {"ch": 9, "text": "Anxious for news of Edmond."},
+   {"ch": 13, "text": "Loses all hope at Napoleon’s downfall and dies in Mercédès’s arms, five months after Edmond’s arrest. Morrel pays for his funeral and his small debts."}
   ]
  },
  {
@@ -151,501 +50,224 @@
   "ch": 3,
   "mentioned": 1,
   "names": [
-   {
-    "ch": 1,
-    "name": "Mercédès",
-    "say": "mair-say-DESS",
-    "fr": "Mercédès",
-    "alias": [
-     "mercedes",
-     "mersaydes"
-    ],
-    "forms": [
-     "Mercédès"
-    ]
-   }
+   {"ch": 1, "name": "Mercédès", "say": "mair-say-DESS", "fr": "Mercédès", "alias": ["mercedes", "mersaydes"], "forms": ["Mercédès"]}
   ],
-  "groups": [
-   {
-    "ch": 1,
-    "group": "circle"
-   }
-  ],
-  "roles": [
-   {
-    "ch": 1,
-    "text": "Edmond’s sweetheart"
-   },
-   {
-    "ch": 3,
-    "text": "Edmond’s fiancée, aged 17"
-   }
-  ],
+  "groups": [{"ch": 1, "group": "circle"}],
+  "roles": [{"ch": 1, "text": "Edmond’s betrothed"}],
   "notes": [
-   {
-    "ch": 1,
-    "text": "Edmond is keen to see her after the voyage."
-   },
-   {
-    "ch": 3,
-    "text": "Lives in the Catalan village. Turns down her cousin Fernand because she loves Edmond."
-   },
-   {
-    "ch": 5,
-    "text": "Sees Edmond arrested."
-   },
-   {
-    "ch": 9,
-    "text": "Asks Villefort what has become of Edmond and gets no answer. Fernand stays close to her."
-   },
-   {
-    "ch": 13,
-    "text": "Left alone when Fernand is called up."
-   }
+   {"ch": 1, "text": "Lives at the Catalans and has called on Morrel three times for news of the Pharaon."},
+   {"ch": 2, "text": "Aged seventeen. Caderousse says she has many admirers and is often seen with a Catalan cousin."},
+   {"ch": 3, "text": "A poor orphan in the Catalan village; her mother died a year ago. Turns down her cousin Fernand because she loves Edmond, and makes Fernand shake Edmond’s hand."},
+   {"ch": 5, "text": "Was to marry Edmond that afternoon, with Fernand beside her as one who “has ever been as a brother”. After the arrest Fernand takes her home."},
+   {"ch": 8, "text": "As the boat passes the Catalans, Edmond sees the light in her room but does not call out."},
+   {"ch": 9, "text": "Waits at Villefort’s door to ask after Edmond; he tells her Edmond is a great criminal. Spends the night in despair, with Fernand beside her."},
+   {"ch": 13, "text": "Left alone when Fernand is called up, she thinks of throwing herself into the sea, but her faith holds her back. Old Dantès dies in her arms."}
   ]
  },
  {
   "id": "morrel",
   "ch": 1,
   "names": [
-   {
-    "ch": 1,
-    "name": "Monsieur Morrel",
-    "say": "muh-SYUH mo-REL",
-    "fr": "Monsieur Morrel",
-    "alias": [
-     "morel",
-     "morrell"
-    ],
-    "forms": [
-     "Morrel"
-    ]
-   }
+   {"ch": 1, "name": "Monsieur Morrel", "say": "muh-SYUH mo-REL", "fr": "Monsieur Morrel", "alias": ["morel", "morrell"], "forms": ["Morrel"]}
   ],
-  "groups": [
-   {
-    "ch": 1,
-    "group": "circle"
-   }
-  ],
-  "roles": [
-   {
-    "ch": 1,
-    "text": "Owner of the Pharaon"
-   }
-  ],
+  "groups": [{"ch": 1, "group": "circle"}],
+  "roles": [{"ch": 1, "text": "Shipowner; part-owner of the Pharaon"}],
   "notes": [
-   {
-    "ch": 1,
-    "text": "Head of the shipping firm Morrel & Son. Fair to his crew and fond of Edmond."
-   },
-   {
-    "ch": 5,
-    "text": "At the feast; goes to find out why Edmond was arrested."
-   },
-   {
-    "ch": 6,
-    "text": "Tells Villefort that Edmond is innocent."
-   },
-   {
-    "ch": 13,
-    "text": "While Napoleon is back in power, asks Villefort to free Edmond. Villefort drafts a petition that makes Edmond look a committed Bonapartist, and keeps it. Pays for Old Dantès’s funeral."
-   }
+   {"ch": 1, "text": "Of the firm Morrel & Son. Fond of Edmond, he wants to make him captain and promises to win his partner’s vote."},
+   {"ch": 5, "text": "Helped Edmond get leave to marry at once. After the arrest he learns Edmond is charged as a Bonapartist agent, puts Danglars in temporary command of the Pharaon and goes to find Villefort."},
+   {"ch": 7, "text": "Waits for Villefort in the street and pleads for Edmond. Villefort answers coldly, hinting that Morrel is himself suspected of Bonapartism."},
+   {"ch": 9, "text": "Asks his friends and the city’s influential men to help Edmond, but is refused everywhere."},
+   {"ch": 13, "text": "While Napoleon is back in power, asks Villefort to free Edmond and writes a petition at Villefort’s dictation, which Villefort keeps. Pays for Old Dantès’s funeral and debts."}
+  ]
+ },
+ {
+  "id": "policar",
+  "ch": 1,
+  "names": [
+   {"ch": 1, "name": "Policar Morrel", "say": "po-lee-KAR mo-REL", "fr": "Policar Morrel", "alias": ["polycarp", "policarp", "polikar"], "forms": ["Policar"]}
+  ],
+  "groups": [{"ch": 1, "group": "off"}],
+  "roles": [{"ch": 1, "text": "Morrel’s uncle, an old soldier"}],
+  "notes": [
+   {"ch": 1, "text": "Served in the same regiment as the emperor, and later became a captain."},
+   {"ch": 5, "text": "Served under “the other government” and does not hide his views, so Morrel is suspected of Bonapartism."}
   ]
  },
  {
   "id": "danglars",
   "ch": 1,
   "names": [
-   {
-    "ch": 1,
-    "name": "Danglars",
-    "say": "dahn-GLAR",
-    "fr": "Danglars",
-    "alias": [
-     "dangler",
-     "danglar",
-     "donglar"
-    ],
-    "forms": [
-     "Danglars"
-    ]
-   }
+   {"ch": 1, "name": "Danglars", "say": "dahn-GLAR", "fr": "Danglars", "alias": ["dangler", "danglar", "donglar"], "forms": ["Danglars"]}
   ],
-  "groups": [
-   {
-    "ch": 1,
-    "group": "plot"
-   }
-  ],
+  "groups": [{"ch": 1, "group": "plot"}],
   "roles": [
-   {
-    "ch": 1,
-    "text": "Supercargo of the Pharaon"
-   }
+   {"ch": 1, "text": "Supercargo of the Pharaon"},
+   {"ch": 5, "text": "Supercargo and acting captain of the Pharaon"},
+   {"ch": 13, "text": "Employed by a Spanish merchant in Madrid"}
   ],
   "notes": [
-   {
-    "ch": 1,
-    "text": "The ship’s business agent, in charge of cargo and accounts. Resents Edmond’s promotion and watched him go ashore at Elba. The final s is silent."
-   },
-   {
-    "ch": 4,
-    "text": "Writes the anonymous letter accusing Edmond, left-handed to disguise it, then throws it aside."
-   },
-   {
-    "ch": 13,
-    "text": "Leaves Marseille for Spain to work for a banker."
-   },
-   {
-    "ch": 17,
-    "text": "Faria identifies him as the letter’s author."
-   }
+   {"ch": 1, "text": "The ship’s agent, aged 25 or 26, obsequious to superiors and disliked by the crew. Complains about the stop at Elba and tells Morrel he saw the captain give Edmond a packet and a letter. The final s is silent."},
+   {"ch": 2, "text": "Questions Caderousse about Edmond and Mercédès, and hints that Edmond may yet become “even less than he is”."},
+   {"ch": 3, "text": "Goads Fernand about Mercédès. On hearing of Edmond’s errand to Paris he says the letter gives him an idea."},
+   {"ch": 4, "text": "Stirs up Fernand while denying any hatred of his own; privately he cares only that Edmond does not become captain. Writes the anonymous letter left-handed to disguise his writing, then crumples it and throws it aside as if in jest."},
+   {"ch": 5, "text": "Feigns ignorance of the charge and threatens Caderousse into keeping quiet. Morrel gives him temporary command of the Pharaon."},
+   {"ch": 9, "text": "Pleased to be rid of Edmond and sure of his place on the Pharaon. Sleeps soundly."},
+   {"ch": 13, "text": "Afraid Edmond may come back now Napoleon has returned, he leaves the sea and, with a recommendation from Morrel, goes to work for a Spanish merchant in Madrid."},
+   {"ch": 17, "text": "Faria reasons that he wrote the letter. Edmond recalls quarrelling with him, finding errors in his accounts, and seeing him pass the cabin as Leclere handed over the packet."}
   ]
  },
  {
   "id": "fernand",
   "ch": 3,
   "names": [
-   {
-    "ch": 3,
-    "name": "Fernand",
-    "say": "fair-NAHN",
-    "fr": "Fernand",
-    "alias": [
-     "fernan",
-     "fernando",
-     "fairnan"
-    ],
-    "forms": [
-     "Fernand"
-    ]
-   }
+   {"ch": 3, "name": "Fernand", "say": "fair-NAHN (the d is silent)", "fr": "Fernand", "alias": ["fernan", "fernando", "fairnan"], "forms": ["Fernand"]}
   ],
-  "groups": [
-   {
-    "ch": 3,
-    "group": "plot"
-   }
-  ],
+  "groups": [{"ch": 3, "group": "plot"}],
   "roles": [
-   {
-    "ch": 3,
-    "text": "Catalan fisherman, Mercédès’s cousin"
-   }
+   {"ch": 3, "text": "Catalan fisherman, Mercédès’s cousin"},
+   {"ch": 13, "text": "Catalan fisherman, called up to the army"}
   ],
   "notes": [
-   {
-    "ch": 3,
-    "text": "In love with Mercédès and bitter that she chose Edmond."
-   },
-   {
-    "ch": 4,
-    "text": "Danglars works on his jealousy. Picks up the discarded letter."
-   },
-   {
-    "ch": 9,
-    "text": "Stays close to Mercédès."
-   },
-   {
-    "ch": 13,
-    "text": "Called up to the army and leaves Marseille."
-   },
-   {
-    "ch": 17,
-    "text": "Faria works out that he sent the letter."
-   }
+   {"ch": 3, "text": "About twenty. He has hoped for ten years to marry Mercédès and is bitter that she chose Edmond; he may be called up as a soldier at any time."},
+   {"ch": 4, "text": "Admits he hates Edmond and would stab him, but Mercédès has sworn to kill herself if Edmond is harmed. After the others leave, he picks up the discarded letter and hurries off."},
+   {"ch": 5, "text": "Pale and tormented through the feast. Caderousse suspects him of causing the arrest; afterwards he takes Mercédès home."},
+   {"ch": 9, "text": "Stays at Mercédès’s side all night while she grieves for Edmond."},
+   {"ch": 13, "text": "Broods on Cape Pharo, resolved to shoot Edmond if he returns. Called up in the last conscription; Mercédès, grateful for his kindness, calls him her brother."},
+   {"ch": 17, "text": "Edmond recalls seeing him with Danglars in the arbour the evening before the wedding, pale and agitated, with pens, ink and paper on the table."}
   ]
  },
  {
   "id": "caderousse",
   "ch": 2,
   "names": [
-   {
-    "ch": 2,
-    "name": "Caderousse",
-    "say": "kad-ROOSS",
-    "fr": "Caderousse",
-    "alias": [
-     "caderouse",
-     "cadrous"
-    ],
-    "forms": [
-     "Caderousse"
-    ]
-   }
+   {"ch": 2, "name": "Caderousse", "say": "kad-ROOSS", "fr": "Caderousse", "alias": ["caderouse", "cadrous"], "forms": ["Caderousse"]}
   ],
-  "groups": [
-   {
-    "ch": 2,
-    "group": "plot"
-   }
-  ],
-  "roles": [
-   {
-    "ch": 2,
-    "text": "Tailor, the Dantès family’s neighbour"
-   }
-  ],
+  "groups": [{"ch": 2, "group": "plot"}],
+  "roles": [{"ch": 2, "text": "Tailor, the Dantès family’s neighbour"}],
   "notes": [
-   {
-    "ch": 2,
-    "text": "Envious and a heavy drinker. Made Old Dantès repay a debt of Edmond’s."
-   },
-   {
-    "ch": 4,
-    "text": "Present, and drunk, when the letter is written. Objects, but does nothing."
-   },
-   {
-    "ch": 5,
-    "text": "Suspects the letter is behind the arrest."
-   },
-   {
-    "ch": 13,
-    "text": "Also called up to the army."
-   }
+   {"ch": 2, "text": "Black-bearded, aged about 25. He made Old Dantès repay a debt of Edmond’s, eyes Edmond’s money greedily, and tells Danglars that Mercédès is often seen with a Catalan cousin."},
+   {"ch": 3, "text": "Drinks with Danglars, gets drunk and mocks Fernand as a rejected lover."},
+   {"ch": 4, "text": "Gets drunk while the letter is written but keeps calling Edmond his friend. Calls the letter a shame and reaches for it, and is satisfied when Danglars crumples it up."},
+   {"ch": 5, "text": "Suspects Fernand and wants to tell everyone about the letter, but Danglars frightens him into silence."},
+   {"ch": 9, "text": "Uneasy about the arrest, he shuts himself up with two bottles of blackcurrant brandy but cannot drink himself into forgetting."},
+   {"ch": 13, "text": "Also called up, but as a married man eight years older than Fernand he is only sent to the frontier."},
+   {"ch": 17, "text": "Edmond remembers him drunk at the table with Danglars and Fernand."}
+  ]
+ },
+ {
+  "id": "pamphile",
+  "ch": 2,
+  "names": [
+   {"ch": 2, "name": "Père Pamphile", "say": "pair pahn-FEEL", "fr": "Père Pamphile", "alias": ["pamfil", "pamphil", "pere"], "forms": ["Pamphile"]}
+  ],
+  "groups": [{"ch": 2, "group": "off"}],
+  "roles": [{"ch": 2, "text": "Keeper of La Réserve"}],
+  "notes": [
+   {"ch": 2, "text": "Tells Danglars and Caderousse that Edmond passed by on his way to the Catalans ten minutes ago."}
   ]
  },
  {
   "id": "villefort",
   "ch": 6,
+  "mentioned": 5,
   "names": [
-   {
-    "ch": 6,
-    "name": "de Villefort",
-    "say": "duh veel-FOR",
-    "fr": "Villefort",
-    "alias": [
-     "villefort",
-     "vilfor",
-     "veelfor"
-    ],
-    "forms": [
-     "Villefort"
-    ]
-   }
+   {"ch": 5, "name": "M. de Villefort", "say": "muh-SYUH duh veel-FOR", "fr": "Monsieur de Villefort", "alias": ["vilfor", "veelfor", "villfort"], "forms": ["Villefort"]},
+   {"ch": 7, "name": "Gérard de Villefort", "say": "zhay-RAR duh veel-FOR", "fr": "Gérard de Villefort", "alias": ["vilfor", "veelfor", "villfort", "gerard", "jerard"], "forms": ["Villefort", "Gérard"]}
   ],
-  "groups": [
-   {
-    "ch": 6,
-    "group": "law"
-   }
-  ],
+  "groups": [{"ch": 5, "group": "law"}],
   "roles": [
-   {
-    "ch": 6,
-    "text": "Deputy crown prosecutor of Marseille"
-   }
+   {"ch": 5, "text": "Deputy procureur du roi (crown prosecutor) at Marseilles"},
+   {"ch": 13, "text": "Procureur du roi at Toulouse"}
   ],
   "notes": [
-   {
-    "ch": 6,
-    "text": "Young, ambitious and loudly royalist. Called away from his own betrothal dinner to deal with Edmond."
-   },
-   {
-    "ch": 7,
-    "text": "Finds the letter is addressed to his own father. Burns it and has Edmond held to protect himself."
-   },
-   {
-    "ch": 8,
-    "text": "Sends Edmond to the Château d’If."
-   },
-   {
-    "ch": 9,
-    "text": "Leaves for Paris to be first to warn the king."
-   },
-   {
-    "ch": 10,
-    "text": "Warns Louis XVIII of the Bonapartist plot."
-   },
-   {
-    "ch": 11,
-    "text": "Wins the king’s favour when news of Napoleon’s landing arrives."
-   },
-   {
-    "ch": 12,
-    "text": "Warns his father the police have his description, then returns to Marseille."
-   },
-   {
-    "ch": 13,
-    "text": "Survives Napoleon’s return thanks to his father. Buries Morrel’s petition for Edmond."
-   },
-   {
-    "ch": 17,
-    "text": "Faria works out why he buried the case."
-   }
+   {"ch": 5, "text": "Morrel means to ask him to help Edmond. He knows him as a furious royalist, but a man who can be reasoned with."},
+   {"ch": 6, "text": "Young, ambitious and loudly royalist; he has already won death sentences against political conspirators. Called away from his own betrothal dinner to deal with Edmond, who is being held at his house."},
+   {"ch": 7, "text": "Aged twenty-seven. Finds the letter is addressed to his own father, burns it and has Edmond held to protect himself, then resolves to turn the letter to his advantage."},
+   {"ch": 8, "text": "Edmond is taken to the Château d’If despite his promise; the gendarmes believe they act on his orders."},
+   {"ch": 9, "text": "Leaves for Paris to reach the king before anyone else can take the credit, after telling the marquis to sell his stock. Turns Mercédès away, then feels remorse for the first time, but goes anyway."},
+   {"ch": 10, "text": "Reaches the king in his travelling clothes and warns that Napoleon is arming three ships. Says the sailor carried a message to a Bonapartist in Paris whose name he could not get out of him."},
+   {"ch": 11, "text": "The king gives him the Legion of Honour cross from his own coat. He hides his alarm at the police account of General Quesnel’s death, then finds his father waiting at his hotel."},
+   {"ch": 12, "text": "Tells his father he burnt the letter from Elba and warns him the police have his description. Hides the clothes left behind and hurries back to Marseilles."},
+   {"ch": 13, "text": "Keeps his post under Napoleon thanks to his father, and keeps Morrel’s petition instead of sending it. After Waterloo he becomes procureur du roi at Toulouse and marries Renée."},
+   {"ch": 14, "text": "Has left Marseilles for Toulouse. Edmond still thinks of him as his only protector."},
+   {"ch": 17, "text": "Faria shows Edmond why he buried the case: the letter was addressed to his father."}
   ]
  },
  {
   "id": "renee",
   "ch": 6,
   "names": [
-   {
-    "ch": 6,
-    "name": "Renée de Saint-Méran",
-    "say": "ruh-NAY duh san may-RAHN",
-    "fr": "Renée de Saint-Méran",
-    "alias": [
-     "renee",
-     "saint",
-     "meran"
-    ],
-    "forms": [
-     "Renée"
-    ]
-   }
+   {"ch": 6, "name": "Renée de Saint-Méran", "say": "ruh-NAY duh san may-RAHN", "fr": "Renée de Saint-Méran", "alias": ["renee", "saint", "meran"], "forms": ["Renée", "Mademoiselle de Saint-Méran"]}
   ],
-  "groups": [
-   {
-    "ch": 6,
-    "group": "law"
-   }
-  ],
+  "groups": [{"ch": 6, "group": "law"}],
   "roles": [
-   {
-    "ch": 6,
-    "text": "Villefort’s fiancée"
-   }
+   {"ch": 6, "text": "Villefort’s fiancée"},
+   {"ch": 13, "text": "Villefort’s wife"}
   ],
   "notes": [
-   {
-    "ch": 6,
-    "text": "Uneasy at the table talk of trials and executions. Asks Villefort to be lenient with his prisoner."
-   },
-   {
-    "ch": 9,
-    "text": "Sees Villefort briefly before he leaves for Paris."
-   }
+   {"ch": 6, "text": "Uneasy at the table talk of trials and executions. Villefort has promised to show mercy to those she pleads for, and she asks him to be lenient with his prisoner."},
+   {"ch": 9, "text": "Upset that Villefort must leave on their betrothal day. No longer pleads for Edmond, whom she now blames for the separation."},
+   {"ch": 13, "text": "Marries Villefort after Waterloo, once he has moved to Toulouse."}
   ]
  },
  {
   "id": "marquis",
   "ch": 6,
   "names": [
-   {
-    "ch": 6,
-    "name": "Marquis de Saint-Méran",
-    "say": "mar-KEE duh san may-RAHN",
-    "fr": "Marquis de Saint-Méran",
-    "alias": [
-     "markee",
-     "saint",
-     "meran"
-    ],
-    "forms": [
-     "Saint-Méran"
-    ]
-   }
+   {"ch": 6, "name": "Marquis de Saint-Méran", "say": "mar-KEE duh san may-RAHN", "fr": "Marquis de Saint-Méran", "alias": ["markee", "saint", "meran"], "forms": ["Marquis de Saint-Méran", "M. de Saint-Méran"]}
   ],
-  "groups": [
-   {
-    "ch": 6,
-    "group": "law"
-   }
-  ],
-  "roles": [
-   {
-    "ch": 6,
-    "text": "Renée’s father"
-   }
-  ],
+  "groups": [{"ch": 6, "group": "law"}],
+  "roles": [{"ch": 6, "text": "Renée’s father"}],
   "notes": [
-   {
-    "ch": 6,
-    "text": "An old aristocrat loyal to the Bourbon king. Host of the betrothal dinner."
-   }
+   {"ch": 6, "text": "An old royalist and former officer of the Duc de Condé, who wears the cross of Saint Louis."},
+   {"ch": 9, "text": "On Villefort’s advice orders his broker to sell his government stock, and has M. de Salvieux write Villefort a letter to the king."},
+   {"ch": 13, "text": "Stands higher at court than ever after the king’s return."}
   ]
  },
  {
   "id": "marquise",
   "ch": 6,
   "names": [
-   {
-    "ch": 6,
-    "name": "Marquise de Saint-Méran",
-    "say": "mar-KEEZ duh san may-RAHN",
-    "fr": "Marquise de Saint-Méran",
-    "alias": [
-     "markeez",
-     "saint",
-     "meran"
-    ],
-    "forms": [
-     "Saint-Méran"
-    ]
-   }
+   {"ch": 6, "name": "Marquise de Saint-Méran", "say": "mar-KEEZ duh san may-RAHN", "fr": "Marquise de Saint-Méran", "alias": ["markeez", "saint", "meran"], "forms": ["Marquise de Saint-Méran"]}
   ],
-  "groups": [
-   {
-    "ch": 6,
-    "group": "law"
-   }
-  ],
-  "roles": [
-   {
-    "ch": 6,
-    "text": "Renée’s mother"
-   }
-  ],
+  "groups": [{"ch": 6, "group": "law"}],
+  "roles": [{"ch": 6, "text": "Renée’s mother"}],
   "notes": [
-   {
-    "ch": 6,
-    "text": "A fierce royalist. Raises the awkward fact that Villefort’s father backed the Revolution; Villefort insists on his own loyalty to the king."
-   }
+   {"ch": 6, "text": "A stern royalist of about fifty whose father died on the scaffold in the Terror. She raises Villefort’s father’s past and tells him to be all the more severe because his family is suspect."}
+  ]
+ },
+ {
+  "id": "salvieux",
+  "ch": 6,
+  "names": [
+   {"ch": 6, "name": "Comte de Salvieux", "say": "kohnt duh sal-VYUH", "fr": "Comte de Salvieux", "alias": ["salvieu", "salvio", "salvyuh"], "forms": ["Salvieux"]}
+  ],
+  "groups": [{"ch": 6, "group": "law"}],
+  "roles": [{"ch": 6, "text": "Old friend of the Marquis de Saint-Méran; chamberlain to the king’s brother"}],
+  "notes": [
+   {"ch": 6, "text": "Tells the table that the king praised Villefort and approved his marriage."},
+   {"ch": 9, "text": "At the marquis’s request, writes Villefort a letter to take him straight to the king."},
+   {"ch": 10, "text": "His letter to Blacas recommends Villefort and asks that he be presented to the king."}
   ]
  },
  {
   "id": "noirtier",
-  "ch": 12,
+  "ch": 11,
   "mentioned": 6,
   "names": [
-   {
-    "ch": 6,
-    "name": "Noirtier",
-    "say": "nwar-tee-AY",
-    "fr": "Noirtier",
-    "alias": [
-     "nwartier",
-     "nortier"
-    ],
-    "forms": [
-     "Noirtier"
-    ]
-   }
+   {"ch": 6, "name": "Noirtier", "say": "nwar-tee-AY", "fr": "Noirtier", "alias": ["nwartier", "nortier", "nwarteeay"], "forms": ["Noirtier"]}
   ],
-  "groups": [
-   {
-    "ch": 6,
-    "group": "law"
-   }
-  ],
+  "groups": [{"ch": 6, "group": "law"}],
   "roles": [
-   {
-    "ch": 6,
-    "text": "Villefort’s father"
-   },
-   {
-    "ch": 12,
-    "text": "Villefort’s father, an active Bonapartist in Paris"
-   }
+   {"ch": 6, "text": "Villefort’s father"},
+   {"ch": 12, "text": "Villefort’s father; vice-president of a Bonapartist club in Paris"}
   ],
   "notes": [
-   {
-    "ch": 6,
-    "text": "A former revolutionary. Villefort has dropped his father’s surname to keep clear of his politics."
-   },
-   {
-    "ch": 7,
-    "text": "The letter Edmond carried was addressed to him, rue Coq-Héron, Paris."
-   },
-   {
-    "ch": 12,
-    "text": "Calls on Villefort, hints he knows what happened to Quesnel, then escapes in disguise after Villefort warns him."
-   },
-   {
-    "ch": 13,
-    "text": "Protects his son while Napoleon is back in power."
-   }
+   {"ch": 6, "text": "A Girondin in the Revolution, later Count Noirtier and a senator. Villefort says he was, and may still be, a Bonapartist, and has dropped his surname to keep clear of his politics."},
+   {"ch": 7, "text": "The letter from Elba was addressed to him at No. 13, Rue Coq-Héron, Paris. Villefort tells Edmond he does not know him."},
+   {"ch": 11, "text": "Calls unannounced at Villefort’s hotel in Paris. He matches the police description of the man who arranged to meet General Quesnel."},
+   {"ch": 12, "text": "Vice-president of the Bonapartist club in the Rue Saint-Jacques, he gives a sly account of Quesnel’s visit there. Told the police have his description, he shaves off his whiskers and leaves in his son’s clothes."},
+   {"ch": 13, "text": "All-powerful at Napoleon’s court, he keeps his son in office."}
   ]
  },
  {
@@ -653,476 +275,266 @@
   "ch": 10,
   "mentioned": 6,
   "names": [
-   {
-    "ch": 6,
-    "name": "Louis XVIII",
-    "say": "lwee deez-WEET",
-    "fr": "Louis dix-huit",
-    "alias": [
-     "king",
-     "louis",
-     "eighteenth"
-    ],
-    "forms": [
-     "Louis XVIII"
-    ]
-   }
+   {"ch": 6, "name": "Louis XVIII", "say": "lwee deez-WEET", "fr": "Louis dix-huit", "alias": ["king", "louis", "eighteenth"], "forms": ["Louis XVIII"]}
   ],
-  "groups": [
-   {
-    "ch": 6,
-    "group": "law"
-   }
-  ],
-  "roles": [
-   {
-    "ch": 6,
-    "text": "King of France"
-   }
-  ],
+  "groups": [{"ch": 6, "group": "law"}],
+  "roles": [{"ch": 6, "text": "King of France"}],
   "notes": [
-   {
-    "ch": 6,
-    "text": "The restored Bourbon king, to whom Villefort and the Saint-Mérans are loyal."
-   },
-   {
-    "ch": 10,
-    "text": "Makes light of warnings about Napoleon until Villefort arrives."
-   },
-   {
-    "ch": 11,
-    "text": "Hears Napoleon has landed. Rewards Villefort."
-   },
-   {
-    "ch": 13,
-    "text": "Loses the throne to Napoleon, then regains it after Waterloo."
-   }
+   {"ch": 6, "text": "The restored Bourbon king, to whom Villefort and the Saint-Mérans are loyal. Salvieux says the king praised Villefort and approved his marriage."},
+   {"ch": 10, "text": "Jokes away Blacas’s fears while annotating his Horace. Knows Villefort is Noirtier’s son but trusts his ambition; shaken by his warning, yet still sure any landing would fail."},
+   {"ch": 11, "text": "Hears that Napoleon has landed and turns on his police minister. Gives Villefort his own Legion of Honour cross and sends him back to Marseilles."},
+   {"ch": 13, "text": "Loses the throne to Napoleon, then regains it after Waterloo."}
   ]
  },
  {
   "id": "blacas",
   "ch": 10,
   "names": [
-   {
-    "ch": 10,
-    "name": "Duc de Blacas",
-    "say": "dook duh bla-KAH",
-    "fr": "Duc de Blacas",
-    "alias": [
-     "duke",
-     "blaka",
-     "blacka"
-    ],
-    "forms": [
-     "Blacas"
-    ]
-   }
+   {"ch": 10, "name": "Duc de Blacas", "say": "dook duh bla-KAH", "fr": "Duc de Blacas", "alias": ["duke", "blaka", "blacka"], "forms": ["Blacas"]}
   ],
-  "groups": [
-   {
-    "ch": 10,
-    "group": "law"
-   }
-  ],
-  "roles": [
-   {
-    "ch": 10,
-    "text": "The king’s favourite"
-   }
-  ],
+  "groups": [{"ch": 10, "group": "law"}],
+  "roles": [{"ch": 10, "text": "Royalist duke and confidant of the king"}],
   "notes": [
-   {
-    "ch": 10,
-    "text": "Brings Villefort’s warning to the king."
-   }
+   {"ch": 10, "text": "A devoted royalist of about fifty. Warns the king of trouble in the south, briefly hoping to take the credit himself, then presents Villefort."},
+   {"ch": 11, "text": "Defends Dandré against the king’s charge of treason."}
   ]
  },
  {
   "id": "dandre",
-  "ch": 11,
+  "ch": 10,
   "names": [
-   {
-    "ch": 11,
-    "name": "Baron Dandré",
-    "say": "ba-ROHN dahn-DRAY",
-    "fr": "Baron Dandré",
-    "alias": [
-     "dandray",
-     "dondray",
-     "minister",
-     "police"
-    ],
-    "forms": [
-     "Dandré"
-    ]
-   }
+   {"ch": 10, "name": "Baron Dandré", "say": "ba-ROHN dahn-DRAY", "fr": "Baron Dandré", "alias": ["dandray", "dondray", "minister", "police"], "forms": ["Dandré"]}
   ],
-  "groups": [
-   {
-    "ch": 11,
-    "group": "law"
-   }
-  ],
-  "roles": [
-   {
-    "ch": 11,
-    "text": "Minister of police"
-   }
-  ],
+  "groups": [{"ch": 10, "group": "law"}],
+  "roles": [{"ch": 10, "text": "Minister of police"}],
   "notes": [
-   {
-    "ch": 11,
-    "text": "Humiliated when Napoleon lands without his ministry knowing."
-   }
+   {"ch": 10, "text": "Assures the king that Napoleon is bored, ill and failing on Elba. Returns at the end of the chapter pale and trembling."},
+   {"ch": 11, "text": "Brings news of Napoleon’s landing, learned only by telegraph, and is scorned by the king. Reports that General Quesnel was murdered; Villefort’s tact earns his gratitude, but his career is over."}
   ]
  },
  {
   "id": "faria",
   "ch": 14,
   "names": [
-   {
-    "ch": 14,
-    "name": "Abbé Faria",
-    "say": "ab-BAY FAH-ree-ah",
-    "fr": "Abbé Faria",
-    "alias": [
-     "abbe",
-     "abbey",
-     "farea",
-     "the",
-     "priest",
-     "mad"
-    ],
-    "forms": [
-     "Faria"
-    ]
-   }
+   {"ch": 14, "name": "Abbé Faria", "say": "ab-BAY fa-REE-ah", "fr": "Abbé Faria", "alias": ["abbe", "abbey", "farea", "fareea", "priest", "mad"], "forms": ["Faria"]}
   ],
-  "groups": [
-   {
-    "ch": 14,
-    "group": "prison"
-   }
-  ],
-  "roles": [
-   {
-    "ch": 14,
-    "text": "Prisoner No. 27, an Italian priest"
-   }
-  ],
+  "groups": [{"ch": 14, "group": "prison"}],
+  "roles": [{"ch": 14, "text": "Prisoner No. 27, an Italian priest held since 1811"}],
   "notes": [
-   {
-    "ch": 14,
-    "text": "Thought mad because he keeps offering the governor a fortune for his freedom."
-   },
-   {
-    "ch": 15,
-    "text": "His escape tunnel comes out in Edmond’s cell by mistake."
-   },
-   {
-    "ch": 16,
-    "text": "Shows Edmond the tools, pens, ink and lamp he has made, and the book he wrote on linen."
-   },
-   {
-    "ch": 17,
-    "text": "Works out who betrayed Edmond and why. Teaches him languages, science and history."
-   },
-   {
-    "ch": 18,
-    "text": "Partly paralysed after a seizure. Reveals the Spada treasure and where it lies."
-   },
-   {
-    "ch": 19,
-    "text": "Dies after a third seizure."
-   }
+   {"ch": 14, "text": "Born in Rome and for twenty years secretary to a Cardinal Spada; arrested in 1811. Thought mad because he offers the government millions for his freedom, more each year."},
+   {"ch": 15, "text": "Tunnelling towards the sea, he took the wrong angle and reached Edmond’s cell instead. Gives his identity only as No. 27.", "ungrounded": "Called only No. 27 in this chapter; ch 14 showed that No. 27 is Faria."},
+   {"ch": 16, "text": "Admits he is the prisoner thought mad, jailed for plotting to unite Italy. Shows Edmond a home-made chisel, describes the pens, ink and linen book he has made, and refuses to kill a guard to escape."},
+   {"ch": 17, "text": "Shows Edmond his cell and inventions, works out who betrayed him, and teaches him languages, science and history. As their new tunnel is finished, a seizure paralyses his right arm and leg; he says a third attack will kill him."},
+   {"ch": 18, "text": "Found the cardinal’s hidden will in 1807 and was arrested at Piombino as he set out for the treasure. Promises Edmond half of it, or all if he dies."},
+   {"ch": 19, "text": "Has Edmond learn the treasure letter by heart. Dies after a third seizure, telling Edmond not to forget Monte Cristo."},
+   {"ch": 20, "text": "Edmond lays his body in his own bed so the jailer will think it is Edmond asleep."}
+  ]
+ },
+ {
+  "id": "governor",
+  "ch": 14,
+  "mentioned": 8,
+  "names": [
+   {"ch": 8, "name": "The governor", "say": "", "fr": "le gouverneur", "alias": ["governor", "commandant"], "forms": []}
+  ],
+  "groups": [{"ch": 8, "group": "prison"}],
+  "roles": [{"ch": 8, "text": "Governor of the Château d’If"}],
+  "notes": [
+   {"ch": 8, "text": "Not on the page. Prisoners may not see him; on his orders Edmond is moved to a dungeon."},
+   {"ch": 14, "text": "Shows the inspector round and mocks Faria’s treasure. A year later he is transferred, and a new governor takes over."},
+   {"ch": 15, "text": "Refuses Edmond’s request for a companion, suspecting a plan to escape."},
+   {"ch": 18, "text": "Visits Faria when he hears he is ill; Faria hides his paralysis for fear of being moved."},
+   {"ch": 19, "text": "With the doctor, confirms Faria’s death and orders the body sewn into a sack for burial that night."}
+  ]
+ },
+ {
+  "id": "inspector",
+  "ch": 14,
+  "names": [
+   {"ch": 14, "name": "The inspector of prisons", "say": "", "fr": "l’inspecteur des prisons", "alias": ["inspector"], "forms": []}
+  ],
+  "groups": [{"ch": 14, "group": "prison"}],
+  "roles": [{"ch": 14, "text": "Inspector-general of prisons"}],
+  "notes": [
+   {"ch": 14, "text": "Tours the dungeons on 30 July 1816. Promises to look into Edmond’s case, then finds the register entry against him and writes “Nothing to be done.”"}
+  ]
+ },
+ {
+  "id": "antoine",
+  "ch": 14,
+  "names": [
+   {"ch": 14, "name": "Antoine", "say": "ahn-TWAHN", "fr": "Antoine", "alias": ["antwan", "anton", "turnkey"], "forms": ["Antoine"]}
+  ],
+  "groups": [{"ch": 14, "group": "prison"}],
+  "roles": [{"ch": 14, "text": "Turnkey at the Château d’If"}],
+  "notes": [
+   {"ch": 14, "text": "The turnkey who brings Edmond his food. Says Edmond once tried to kill him."}
   ]
  },
  {
   "id": "leclere",
   "ch": 1,
   "names": [
-   {
-    "ch": 1,
-    "name": "Captain Leclère",
-    "say": "luh-KLAIR",
-    "fr": "Leclère",
-    "alias": [
-     "leclair",
-     "leclere"
-    ],
-    "forms": [
-     "Leclere"
-    ]
-   }
+   {"ch": 1, "name": "Captain Leclere", "say": "luh-KLAIR", "fr": "Capitaine Leclère", "alias": ["leclair", "leclerc", "leclerk"], "forms": ["Leclere"]}
   ],
-  "groups": [
-   {
-    "ch": 1,
-    "group": "off"
-   }
-  ],
-  "roles": [
-   {
-    "ch": 1,
-    "text": "Late captain of the Pharaon"
-   }
-  ],
+  "groups": [{"ch": 1, "group": "off"}],
+  "roles": [{"ch": 1, "text": "Late captain of the Pharaon"}],
   "notes": [
-   {
-    "ch": 1,
-    "text": "Died of brain fever on the voyage. His last order sent Edmond to Elba with a package."
-   }
+   {"ch": 1, "text": "Left Naples troubled after a long talk with the harbour-master, fell ill with brain fever and died three days later; he was buried at sea. Dying, he gave Edmond a packet for Marshal Bertrand on Elba."},
+   {"ch": 7, "text": "Edmond tells Villefort the dying captain also gave him a ring to gain him an audience on Elba."}
   ]
  },
  {
   "id": "bertrand",
   "ch": 1,
   "names": [
-   {
-    "ch": 1,
-    "name": "Grand Marshal Bertrand",
-    "say": "bair-TRAHN",
-    "fr": "Bertrand",
-    "alias": [
-     "bertran"
-    ],
-    "forms": [
-     "Bertrand"
-    ]
-   }
+   {"ch": 1, "name": "Marshal Bertrand", "say": "bair-TRAHN", "fr": "Maréchal Bertrand", "alias": ["bertran", "grand", "marshal"], "forms": ["Bertrand"]}
   ],
-  "groups": [
-   {
-    "ch": 1,
-    "group": "off"
-   }
-  ],
-  "roles": [
-   {
-    "ch": 1,
-    "text": "Napoleon’s aide on Elba"
-   }
-  ],
+  "groups": [{"ch": 1, "group": "off"}],
+  "roles": [{"ch": 1, "text": "The emperor’s marshal on Elba"}],
   "notes": [
-   {
-    "ch": 1,
-    "text": "The man Edmond handed the captain’s package to."
-   }
+   {"ch": 1, "text": "Edmond delivered Captain Leclere’s packet to him on Elba; the emperor came in while Edmond was there."}
   ]
  },
  {
   "id": "napoleon",
   "ch": 1,
   "names": [
-   {
-    "ch": 1,
-    "name": "Napoleon",
-    "say": "na-po-lay-OHN",
-    "fr": "Napoléon",
-    "alias": [
-     "emperor",
-     "usurper",
-     "bonaparte",
-     "corsican",
-     "ogre"
-    ],
-    "forms": [
-     "Napoleon",
-     "Bonaparte"
-    ]
-   }
+   {"ch": 1, "name": "Napoleon", "say": "na-po-lay-OHN", "fr": "Napoléon", "alias": ["emperor", "usurper", "bonaparte", "corsican", "ogre"], "forms": ["Napoleon", "Bonaparte", "emperor", "usurper"]}
   ],
-  "groups": [
-   {
-    "ch": 1,
-    "group": "off"
-   }
+  "grounding": [
+   {"form": "Napoleon", "textCh": 5, "reason": "Called only “the emperor” in ch 1; who he is is common knowledge."},
+   {"form": "Bonaparte", "textCh": 10, "reason": "Same person; this form of the name is first used in ch 10."},
+   {"form": "usurper", "textCh": 4, "reason": "Royalist name for him, first used in the anonymous letter in ch 4."}
   ],
+  "groups": [{"ch": 1, "group": "off"}],
   "roles": [
-   {
-    "ch": 1,
-    "text": "The exiled emperor, on Elba"
-   },
-   {
-    "ch": 11,
-    "text": "Back in France"
-   },
-   {
-    "ch": 13,
-    "text": "Emperor again, briefly"
-   }
+   {"ch": 1, "text": "The exiled emperor, on Elba"},
+   {"ch": 11, "text": "Landed in France, marching on Paris"},
+   {"ch": 13, "text": "Emperor again, for the Hundred Days"}
   ],
   "notes": [
-   {
-    "ch": 1,
-    "text": "“The Emperor” to his supporters, “the usurper” to royalists. Edmond met him briefly on Elba."
-   },
-   {
-    "ch": 10,
-    "text": "Villefort reports a plot for his return."
-   },
-   {
-    "ch": 11,
-    "text": "Lands in France. Royalists call him “the Corsican ogre”."
-   },
-   {
-    "ch": 13,
-    "text": "Retakes the throne for the Hundred Days, then is defeated at Waterloo."
-   }
+   {"ch": 1, "text": "Called only “the emperor” in this chapter. On Elba he questioned Edmond about the Pharaon and remembered a Morrel who served in his regiment."},
+   {"ch": 10, "text": "The police report him bored, ill and failing on Elba. Villefort reports that he is arming three ships."},
+   {"ch": 11, "text": "Left Elba on 26 February and landed near Antibes on 1 March; now advancing on Paris. Royalists call him “the usurper”."},
+   {"ch": 12, "text": "Marching on Grenoble; Noirtier expects him in Paris by 20 or 25 March."},
+   {"ch": 13, "text": "Retakes the throne for the Hundred Days, then is defeated at Waterloo."}
+  ]
+ },
+ {
+  "id": "murat",
+  "ch": 4,
+  "names": [
+   {"ch": 4, "name": "Murat", "say": "mew-RAH (the t is silent)", "fr": "Murat", "alias": ["murah", "mura"], "forms": ["Murat"]}
+  ],
+  "groups": [{"ch": 4, "group": "off"}],
+  "roles": [
+   {"ch": 4, "text": "Named in the anonymous letter"},
+   {"ch": 6, "text": "King of Naples, Napoleon’s brother-in-law"}
+  ],
+  "notes": [
+   {"ch": 4, "text": "The anonymous letter claims he gave Edmond a letter for Napoleon."}
   ]
  },
  {
   "id": "quesnel",
   "ch": 11,
   "names": [
-   {
-    "ch": 11,
-    "name": "General Quesnel",
-    "say": "keh-NEL",
-    "fr": "Quesnel",
-    "alias": [
-     "kenel",
-     "quenel"
-    ],
-    "forms": [
-     "Quesnel"
-    ]
-   }
+   {"ch": 11, "name": "General Quesnel", "say": "keh-NEL (the s is silent)", "fr": "Général Quesnel", "alias": ["kenel", "quenel", "general"], "forms": ["Quesnel"]}
   ],
-  "groups": [
-   {
-    "ch": 11,
-    "group": "off"
-   }
+  "groups": [{"ch": 11, "group": "off"}],
+  "roles": [{"ch": 11, "text": "A general, thought murdered"}],
+  "notes": [
+   {"ch": 11, "text": "Disappeared after leaving a Bonapartist club, having agreed to meet an unknown man in the Rue Saint-Jacques. His death was first thought suicide; the police now say murder."},
+   {"ch": 12, "text": "Noirtier says the club invited him, he declared himself a royalist and was let go after swearing an oath, and he “lost his way” home. He was found next day in the Seine."}
+  ]
+ },
+ {
+  "id": "countspada",
+  "ch": 18,
+  "mentioned": 14,
+  "names": [
+   {"ch": 14, "name": "Cardinal Spada", "say": "SPAH-dah", "fr": "Cardinal Spada", "alias": ["spada", "spader"], "forms": ["Cardinal Spada"]},
+   {"ch": 18, "name": "Count of Spada", "say": "SPAH-dah", "fr": "Comte de Spada", "alias": ["spada", "spader", "count", "cardinal"], "forms": ["Cardinal Spada", "Count of Spada"]}
   ],
+  "groups": [{"ch": 14, "group": "off"}],
   "roles": [
-   {
-    "ch": 11,
-    "text": "A general, found dead"
-   }
+   {"ch": 14, "text": "Faria’s patron"},
+   {"ch": 18, "text": "Last of the Spada family, Faria’s patron"}
   ],
   "notes": [
-   {
-    "ch": 11,
-    "text": "Went to a Bonapartist meeting in the rue Saint-Jacques and was later found dead. The police want a man seen with him."
-   },
-   {
-    "ch": 12,
-    "text": "Noirtier hints he knows what happened."
-   }
+   {"ch": 14, "text": "Faria says he was this cardinal’s secretary for twenty years."},
+   {"ch": 18, "text": "This translation calls him both “Cardinal Spada” and “the Count of Spada”. Faria was his secretary; when he died in 1807 he left Faria his papers and the family breviary."}
   ]
  },
  {
   "id": "spada",
   "ch": 18,
   "names": [
-   {
-    "ch": 18,
-    "name": "Cardinal Spada",
-    "say": "kar-dee-NAHL SPAH-dah",
-    "fr": "Cardinal Spada",
-    "alias": [
-     "spader"
-    ],
-    "forms": [
-     "Cardinal Spada"
-    ]
-   }
+   {"ch": 18, "name": "Cardinal Cæsar Spada", "say": "SEE-zer SPAH-dah", "fr": "César Spada", "alias": ["spada", "spader", "caesar", "cesar", "cardinal"], "forms": ["Cæsar Spada"]}
   ],
-  "groups": [
-   {
-    "ch": 18,
-    "group": "off"
-   }
-  ],
-  "roles": [
-   {
-    "ch": 18,
-    "text": "A wealthy cardinal in Renaissance Rome"
-   }
-  ],
+  "groups": [{"ch": 18, "group": "off"}],
+  "roles": [{"ch": 18, "text": "A rich cardinal in Renaissance Rome"}],
   "notes": [
-   {
-    "ch": 18,
-    "text": "Poisoned by the Borgias in 1498. Hid his fortune before he died."
-   }
+   {"ch": 18, "text": "Made a cardinal by Pope Alexander VI so the pope could sell his offices, then poisoned at the pope’s dinner in 1498. He had hidden his fortune and left a secret will for his nephew Guido."}
+  ]
+ },
+ {
+  "id": "guido",
+  "ch": 18,
+  "names": [
+   {"ch": 18, "name": "Guido Spada", "say": "GWEE-doh SPAH-dah", "fr": "Guido Spada", "alias": ["gweedo", "guido"], "forms": ["Guido Spada"]}
+  ],
+  "groups": [{"ch": 18, "group": "off"}],
+  "roles": [{"ch": 18, "text": "Nephew and heir of Cæsar Spada"}],
+  "notes": [
+   {"ch": 18, "text": "Named in the hidden will as sole heir. Poisoned at the same dinner, he died at his own door."}
+  ]
+ },
+ {
+  "id": "rospigliosi",
+  "ch": 18,
+  "names": [
+   {"ch": 18, "name": "Cardinal Rospigliosi", "say": "ross-pee-LYOH-zee", "fr": "Rospigliosi", "alias": ["rospiliosi", "rospigliozi"], "forms": ["Rospigliosi"]}
+  ],
+  "groups": [{"ch": 18, "group": "off"}],
+  "roles": [{"ch": 18, "text": "Cardinal, poisoned with Spada"}],
+  "notes": [
+   {"ch": 18, "text": "Made a cardinal alongside Spada and poisoned at the same dinner; the Borgias seized his property."}
   ]
  },
  {
   "id": "cesare",
   "ch": 18,
+  "mentioned": 14,
   "names": [
-   {
-    "ch": 18,
-    "name": "Cesare Borgia",
-    "say": "CHEH-zah-reh BOR-jah",
-    "fr": "César Borgia",
-    "alias": [
-     "caesar",
-     "borja",
-     "borgia",
-     "pope",
-     "alexander"
-    ],
-    "forms": [
-     "Cæsar Borgia"
-    ]
-   }
+   {"ch": 14, "name": "Cæsar Borgia", "say": "SEE-zer BOR-jah", "fr": "César Borgia", "alias": ["caesar", "cesare", "cesar", "borja", "borgia"], "forms": ["Cæsar Borgia"]}
   ],
-  "groups": [
-   {
-    "ch": 18,
-    "group": "off"
-   }
-  ],
+  "groups": [{"ch": 14, "group": "off"}],
   "roles": [
-   {
-    "ch": 18,
-    "text": "Son of Pope Alexander VI"
-   }
+   {"ch": 14, "text": "Italian Renaissance prince"},
+   {"ch": 18, "text": "Son of Pope Alexander VI"}
   ],
   "notes": [
-   {
-    "ch": 18,
-    "text": "He and his father poisoned rich cardinals to take their money. Cardinal Spada was one."
-   }
+   {"ch": 14, "text": "Faria names him when describing his plan for a united Italy."},
+   {"ch": 18, "text": "With his father, Pope Alexander VI, made Spada and Rospigliosi cardinals to sell their offices, then poisoned them at dinner. The Spada fortune was never found."}
   ]
  },
  {
-  "id": "countspada",
+  "id": "alexander",
   "ch": 18,
+  "mentioned": 16,
   "names": [
-   {
-    "ch": 18,
-    "name": "Count Spada",
-    "say": "SPAH-dah",
-    "fr": "Comte Spada",
-    "alias": [
-     "spader",
-     "count"
-    ],
-    "forms": [
-     "Count Spada"
-    ]
-   }
+   {"ch": 16, "name": "Pope Alexander VI", "say": "al-ig-ZAHN-der the SIXTH", "fr": "Alexandre six", "alias": ["alexander", "pope", "borgia"], "forms": ["Alexander VI"]}
   ],
-  "groups": [
-   {
-    "ch": 18,
-    "group": "off"
-   }
-  ],
+  "groups": [{"ch": 16, "group": "off"}],
   "roles": [
-   {
-    "ch": 18,
-    "text": "Last of the Spada family"
-   }
+   {"ch": 16, "text": "Renaissance pope"},
+   {"ch": 18, "text": "Pope in 1498, father of Cæsar Borgia"}
   ],
   "notes": [
-   {
-    "ch": 18,
-    "text": "Faria was his secretary. Among his family papers Faria found the clue to the treasure."
-   }
+   {"ch": 16, "text": "Faria mentions his plan for Italy."},
+   {"ch": 18, "text": "Invited Spada and Rospigliosi to dinner and had them poisoned."}
   ]
  }
 ]

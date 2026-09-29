@@ -162,6 +162,13 @@ test('note grounding warns when a named person is absent from that chapter', () 
   assert.equal(run(d).warnings.filter(x => x.check === 'notes').length, 0);
 });
 
+test('style: em dashes and straight quotes are errors', () => {
+  const d = fixture();
+  d.chapters[0].recap = 'Anna arrives—late.';
+  d.people[0].notes[0].text = "Meets Bruno's ship.";
+  assert.deepEqual(errs(d, 'style').map(e => e.where), ['chapters[0].recap (ch 1)', 'people.anna.notes[0] (ch 1)']);
+});
+
 test('output never contains data text, even when everything is wrong', () => {
   const S = 'zqsecret';
   const d = fixture();
