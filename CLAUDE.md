@@ -138,7 +138,7 @@ if `docs/` is stale.
 - Mobile-first; the prototype's look (IM Fell English + Alegreya Sans, group colours, light/dark
   tokens).
 - Features: sound-alike search (substring + Levenshtein) over people and glossary; chapter picker
-  grouped by disc, with prev/next, saved to localStorage; disc and track for the chosen chapter;
+  grouped by tens (no disc numbers; titles hidden past the chosen chapter), with prev/next, saved to localStorage; disc and track for the chosen chapter;
   recap plus collapsible earlier recaps; "This chapter only" filter; Hear button (speechSynthesis,
   fr-FR); per-card chapter log with current-chapter highlight; "New in chapter N" / "First
   mentioned" badges; earlier names; `sameAs` links; relations list with jump links; gated

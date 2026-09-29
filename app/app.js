@@ -165,19 +165,18 @@ function card(p) {
 function renderPicker() {
   const select = $('chsel');
   if (!select.options.length) {
-    // One optgroup per disc a chapter starts on.
+    // Group by tens so the list stays usable at 117 chapters.
     let group = null;
-    manifest.tracks.forEach(([disc], i) => {
-      if (!group || group.dataset.disc !== String(disc)) {
+    for (let ch = 1; ch <= manifest.last; ch++) {
+      if ((ch - 1) % 10 === 0) {
         group = document.createElement('optgroup');
-        group.label = `Disc ${disc}`;
-        group.dataset.disc = String(disc);
+        group.label = `Chapters ${ch}–${Math.min(ch + 9, manifest.last)}`;
         select.appendChild(group);
       }
       const o = document.createElement('option');
-      o.value = String(i + 1);
+      o.value = String(ch);
       group.appendChild(o);
-    });
+    }
   }
   // Titles only up to the chosen chapter.
   for (const o of select.options) {
