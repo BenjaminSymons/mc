@@ -1,0 +1,27 @@
+{
+ "circle": {
+  "title": "Edmond and those close to him",
+  "desc": "",
+  "color": "var(--circle)"
+ },
+ "plot": {
+  "title": "The three at the tavern",
+  "desc": "Each has a reason to resent Edmond.",
+  "color": "var(--plot)"
+ },
+ "law": {
+  "title": "Villefort and the royalists",
+  "desc": "Villefort, his fiancée’s family, and those loyal to the king.",
+  "color": "var(--law)"
+ },
+ "prison": {
+  "title": "The Château d’If",
+  "desc": "",
+  "color": "var(--prison)"
+ },
+ "off": {
+  "title": "Named but offstage",
+  "desc": "Talked about, not seen.",
+  "color": "var(--off)"
+ }
+}

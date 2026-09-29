@@ -1,0 +1,116 @@
+[
+ {
+  "from": "morrel",
+  "verb": "employs and means to promote",
+  "to": "edmond",
+  "ch": 1
+ },
+ {
+  "from": "danglars",
+  "verb": "envies the promotion of",
+  "to": "edmond",
+  "ch": 1
+ },
+ {
+  "from": "caderousse",
+  "verb": "resents the good luck of",
+  "to": "edmond",
+  "ch": 2
+ },
+ {
+  "from": "edmond",
+  "verb": "is engaged to",
+  "to": "mercedes",
+  "ch": 3
+ },
+ {
+  "from": "fernand",
+  "verb": "is a rival in love to",
+  "to": "edmond",
+  "ch": 3
+ },
+ {
+  "from": "danglars",
+  "verb": "feeds the jealousy of",
+  "to": "fernand",
+  "ch": 4
+ },
+ {
+  "from": "villefort",
+  "verb": "is engaged to",
+  "to": "renee",
+  "ch": 6
+ },
+ {
+  "from": "villefort",
+  "verb": "is the son of",
+  "to": "noirtier",
+  "ch": 6
+ },
+ {
+  "from": "edmond",
+  "verb": "was carrying a letter for",
+  "to": "noirtier",
+  "ch": 7
+ },
+ {
+  "from": "villefort",
+  "verb": "sends to prison",
+  "to": "edmond",
+  "ch": 7
+ },
+ {
+  "from": "blacas",
+  "verb": "is the favourite of",
+  "to": "louis",
+  "ch": 10
+ },
+ {
+  "from": "villefort",
+  "verb": "brings warning of the plot to",
+  "to": "louis",
+  "ch": 10
+ },
+ {
+  "from": "villefort",
+  "verb": "tips off",
+  "to": "noirtier",
+  "ch": 12
+ },
+ {
+  "from": "morrel",
+  "verb": "asks for Edmond’s release from",
+  "to": "villefort",
+  "ch": 13
+ },
+ {
+  "from": "faria",
+  "verb": "tunnels by mistake into the cell of",
+  "to": "edmond",
+  "ch": 15
+ },
+ {
+  "from": "faria",
+  "verb": "teaches",
+  "to": "edmond",
+  "ch": 17
+ },
+ {
+  "from": "cesare",
+  "verb": "poisoned",
+  "to": "spada",
+  "ch": 18
+ },
+ {
+  "from": "faria",
+  "verb": "was secretary to",
+  "to": "countspada",
+  "ch": 18
+ },
+ {
+  "from": "faria",
+  "verb": "tells the secret of the treasure to",
+  "to": "edmond",
+  "ch": 18
+ }
+]

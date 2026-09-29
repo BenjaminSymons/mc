@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Monte Cristo: who's who, chapters 1–20</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Alegreya+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#E8EDEF; --paper:#F8FAFA; --ink:#16222E; --muted:#56636F; --rule:#C8D2D7;
+  --circle:#256582; --plot:#8C2F2B; --law:#4F4788; --prison:#72592B; --off:#6E767D;
+  --display:"IM Fell English", "Iowan Old Style", Georgia, serif;
+  --body:"Alegreya Sans", "Segoe UI", system-ui, sans-serif;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0D1720; --paper:#14212D; --ink:#E4EAEE; --muted:#9AA8B3; --rule:#2A3A49;
+    --circle:#6DB2D1; --plot:#DE7A71; --law:#A99FE2; --prison:#D2B478; --off:#9BA4AB;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0D1720; --paper:#14212D; --ink:#E4EAEE; --muted:#9AA8B3; --rule:#2A3A49;
+  --circle:#6DB2D1; --plot:#DE7A71; --law:#A99FE2; --prison:#D2B478; --off:#9BA4AB;
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 9rem)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:1.0625rem;line-height:1.5}
+.wrap{max-width:62rem;margin:0 auto;padding:0 1.1rem 4rem}
+
+header{padding:2.4rem 0 1.2rem}
+.book{font-family:var(--display);font-style:italic;color:var(--muted);font-size:1.15rem;margin:0}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(2.4rem,9vw,4.2rem);line-height:1.02;margin:.2rem 0 .8rem;letter-spacing:-.01em}
+.lede{max-width:38rem;color:var(--muted);margin:0}
+
+.controls{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding:.8rem 0;border-bottom:1px solid var(--rule)}
+.search,.nav select{width:100%;font:inherit;padding:.6rem .8rem;border:1px solid var(--rule);border-radius:6px;background:var(--paper);color:var(--ink)}
+.nav{display:flex;gap:.4rem;margin-top:.5rem;align-items:stretch}
+.nav select{flex:1;min-width:0}
+.btn{font:inherit;padding:.35rem .75rem;border-radius:6px;border:1px solid var(--rule);background:var(--paper);color:var(--ink);cursor:pointer}
+.btn:disabled{opacity:.4;cursor:default}
+.btn[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.row2{display:flex;justify-content:space-between;align-items:center;margin-top:.5rem;gap:.6rem;flex-wrap:wrap}
+.row2 .hint{color:var(--muted);font-size:.9rem}
+.search:focus-visible,button:focus-visible,select:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid var(--circle);outline-offset:2px}
+
+.recap{background:var(--paper);border-top:3px solid var(--ink);border-radius:0 0 6px 6px;padding:1rem 1.1rem 1.1rem;margin-top:1.5rem}
+.recap .lab{margin:0;color:var(--muted);font-size:.95rem}
+.recap h2{font-family:var(--display);font-weight:400;font-size:1.9rem;line-height:1.1;margin:.1rem 0 .5rem}
+.recap p.sum{margin:0;max-width:44rem}
+.recap details{margin-top:.9rem;border-top:1px solid var(--rule);padding-top:.6rem}
+.recap summary{cursor:pointer;color:var(--muted)}
+.earlier{list-style:none;padding:0;margin:.6rem 0 0;display:grid;gap:.7rem}
+.earlier b{font-family:var(--display);font-weight:400;font-size:1.15rem}
+.earlier p{margin:.1rem 0 0;max-width:44rem}
+
+section.group{margin-top:2.2rem}
+.ghead{display:flex;align-items:baseline;gap:.6rem;border-bottom:2px solid var(--g);padding-bottom:.35rem;margin-bottom:.9rem}
+.ghead h2{font-family:var(--display);font-weight:400;font-size:1.7rem;margin:0;color:var(--g)}
+.gdesc{color:var(--muted);margin:-.4rem 0 1rem;font-size:.98rem}
+.grid{display:grid;gap:.9rem;grid-template-columns:1fr}
+@media (min-width:44rem){.grid{grid-template-columns:1fr 1fr}}
+
+.card{background:var(--paper);border-left:4px solid var(--g);border-radius:0 6px 6px 0;padding:1rem 1.1rem 1.05rem}
+.card.flash{outline:2px solid var(--g)}
+.top{display:flex;justify-content:space-between;align-items:flex-start;gap:.8rem}
+.card h3{font-family:var(--display);font-weight:400;font-size:1.85rem;line-height:1.05;margin:0}
+.new{display:inline-block;font-size:.85rem;font-weight:700;color:var(--g);margin-bottom:.2rem}
+.pron{font-family:var(--display);font-style:italic;font-size:1.3rem;color:var(--g);margin:.25rem 0 .5rem}
+.role{font-weight:700;margin:0 0 .3rem}
+.only{color:var(--muted);margin:0;font-size:.95rem}
+.notes{list-style:none;padding:0;margin:.4rem 0 0}
+.notes li{display:grid;grid-template-columns:2.8rem 1fr;gap:.3rem;padding:.35rem 0;border-top:1px solid var(--rule)}
+.notes .tag{color:var(--muted);font-size:.88rem;padding-top:.1rem}
+.notes li.now .tag{color:var(--g);font-weight:700}
+.say{flex:none;display:inline-flex;align-items:center;gap:.3rem;font:inherit;font-size:.9rem;padding:.3rem .6rem;border-radius:999px;border:1px solid var(--rule);background:transparent;color:var(--ink);cursor:pointer}
+.say svg{width:1rem;height:1rem}
+.say[hidden]{display:none}
+
+.rels{list-style:none;padding:0;margin:0;display:grid;gap:.5rem}
+.rels li{background:var(--paper);border-radius:6px;padding:.6rem .8rem;border-left:4px solid transparent}
+.rels li.now{border-left-color:var(--ink)}
+.rels a{color:var(--ink);font-weight:700;text-decoration:none;border-bottom:2px solid var(--g)}
+.rels .v{color:var(--muted)}
+
+dl.gloss{margin:0;display:grid;gap:.8rem}
+@media (min-width:44rem){dl.gloss{grid-template-columns:1fr 1fr}}
+dl.gloss div{background:var(--paper);border-radius:6px;padding:.7rem .9rem}
+dt{font-family:var(--display);font-size:1.35rem}
+dt i{font-size:1.05rem;color:var(--muted);margin-left:.4rem}
+dd{margin:.15rem 0 0}
+.context{max-width:40rem}
+.empty{color:var(--muted);padding:1rem 0}
+footer{margin-top:3rem;color:var(--muted);font-size:.9rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <p class="book">The Count of Monte Cristo, chapters 1–20</p>
+  <h1>Who’s who in Marseille, 1815</h1>
+  <p class="lede">Set the chapter you’ve reached. Everything on the page, including the recap, stops there. Stress falls on the capitalised syllable.</p>
+</header>
+
+<div class="controls">
+  <input id="q" class="search" type="search" placeholder="Type a name as it sounded, e.g. kad-rooss" aria-label="Search by name or sound">
+  <div class="nav">
+    <button class="btn" id="prev" aria-label="Previous chapter">‹</button>
+    <select id="chsel" aria-label="Chapter reached"></select>
+    <button class="btn" id="next" aria-label="Next chapter">›</button>
+  </div>
+  <div class="row2">
+    <span class="hint" id="hint"></span>
+    <button class="btn" id="onlyBtn" aria-pressed="false">This chapter only</button>
+  </div>
+</div>
+
+<section class="recap" aria-live="polite">
+  <p class="lab" id="recapLab"></p>
+  <h2 id="recapTitle"></h2>
+  <p class="sum" id="recapText"></p>
+  <details id="earlierBox"><summary>Earlier chapters</summary><ul class="earlier" id="earlier"></ul></details>
+</section>
+
+<main id="people"></main>
+
+<section class="group" style="--g:var(--ink)">
+  <div class="ghead"><h2>How they connect</h2></div>
+  <ul class="rels" id="rels"></ul>
+</section>
+
+<section class="group" style="--g:var(--off)">
+  <div class="ghead"><h2>Places and terms</h2></div>
+  <p class="gdesc context">The story opens on 24 February 1815. Napoleon has been exiled to Elba and the Bourbon king, Louis XVIII, is back on the throne. Anyone caught carrying messages between Elba and Napoleon’s supporters in France can be charged with treason.</p>
+  <dl class="gloss" id="gloss"></dl>
+</section>
+
+<footer>Pronunciations are English approximations of French (or Italian, for the Italian names). “Hear” uses your device’s French voice, if it has one. Chapter titles and accents vary a little between translations.</footer>
+</div>
+
+<script>
+const CHAPTERS = [
+  null,
+  ["Marseille: The Arrival","Marseille, 24 February 1815. The Pharaon docks with its 19-year-old first mate, Edmond Dantès, in command: Captain Leclère died at sea. The owner, Morrel, is pleased with him and hints he’ll be made captain. Danglars, the supercargo, resents this and makes a point of telling Morrel that Edmond put in at Elba."],
+  ["Father and Son","Edmond visits his father and finds him short of food: their neighbour Caderousse made the old man repay a debt of Edmond’s. Caderousse calls round, congratulates Edmond with poorly hidden envy, then goes off to talk it over with Danglars."],
+  ["The Catalans","In the Catalan village outside Marseille, Fernand begs his cousin Mercédès to marry him. She refuses: she loves Edmond. Edmond arrives and the rivalry is plain. Fernand storms off and is called over by Danglars and Caderousse, drinking in a tavern arbour."],
+  ["Conspiracy","The three drink together. Danglars writes an anonymous letter to the crown prosecutor, using his left hand, saying Edmond is carrying a letter from Elba for Napoleon’s supporters in Paris. He screws it up and throws it aside as if it were a joke. Caderousse, drunk, is led away; Fernand picks up the letter."],
+  ["The Marriage Feast","The betrothal feast at La Réserve. As the party is about to leave for the town hall, a police commissary arrives and arrests Edmond. Morrel goes to find out why. Caderousse suspects the letter. Old Dantès and Mercédès are left in shock."],
+  ["The Deputy Crown Prosecutor","Across town, Villefort is at his own betrothal dinner with Renée de Saint-Méran and her royalist parents, where his father’s revolutionary past comes up. He is called away to deal with Edmond’s case. On the way, Morrel tells him Edmond is innocent."],
+  ["The Examination","Villefort questions Edmond, finds him honest and is ready to release him, until he reads the letter Edmond was carrying. It is addressed to M. Noirtier in Paris: Villefort’s father. Villefort burns it, makes Edmond promise never to mention it, and has him held anyway."],
+  ["The Château d’If","That night Edmond is taken by boat to the Château d’If, a fortress prison on an island in the bay. He is locked in a cell, and after threatening a jailer is moved down to a dungeon."],
+  ["The Evening of the Betrothal","Villefort returns briefly to the Saint-Mérans, then leaves for Paris, intending to be first to warn the king. Mercédès asks him what has become of Edmond and gets no answer. Fernand stays close to her. Old Dantès waits alone for news."],
+  ["The King’s Closet at the Tuileries","In Paris, Louis XVIII makes light of warnings about Napoleon to his favourite, the Duc de Blacas. Villefort arrives with news of a Bonapartist plot, and the king begins to take it seriously."],
+  ["The Corsican Ogre","News comes that Napoleon has landed in France. The minister of police, Dandré, is humiliated; Villefort’s early warning wins him the king’s favour. There is talk of General Quesnel, who went to a Bonapartist meeting and was later found dead."],
+  ["Father and Son","Noirtier calls on Villefort in Paris. Father and son spar over politics; Noirtier hints he knows what happened to Quesnel and says Napoleon will soon be in Paris. Villefort warns him the police have his description. Noirtier shaves, changes clothes and slips away. Villefort heads back to Marseille."],
+  ["The Hundred Days","Napoleon retakes the throne, then loses it again at Waterloo. Morrel, hoping the new regime will help, asks Villefort to free Edmond; Villefort drafts a petition that makes Edmond look a committed Bonapartist, and keeps it. Old Dantès dies. Danglars leaves for Spain, Fernand and Caderousse are called up, and Mercédès is left alone."],
+  ["The Two Prisoners","About a year later an inspector of prisons visits the Château d’If. Edmond, prisoner No. 34, begs for a trial; the register describes him as a dangerous Bonapartist. The inspector also sees No. 27, an Italian priest, Abbé Faria, thought mad because he offers a fortune for his freedom."],
+  ["Number 34 and Number 27","Years pass. Edmond goes from hope to despair and decides to starve himself, then hears scraping in the wall. He digs towards it, and the digger breaks through: Faria, whose escape tunnel has gone the wrong way."],
+  ["A Learned Italian","Faria shows Edmond his cell and what he has made from almost nothing: tools, pens, ink, a lamp, and a book written on strips of linen. He explains how his tunnel went astray."],
+  ["The Abbé’s Chamber","Hearing Edmond’s story, Faria works out who wrote the letter, who sent it, and why Villefort buried the case. Edmond is shaken and set on revenge. Faria teaches him languages, science and history, and they plan another escape."],
+  ["The Treasure","Faria, now partly paralysed after a seizure, tells Edmond about the hidden fortune of Cardinal Spada, poisoned by the Borgias in 1498, and shows him the old paper that says where it lies: the island of Monte Cristo."],
+  ["The Third Attack","Faria suffers another seizure and dies. Edmond overhears the governor and the prison doctor confirm the death and arrange the burial for that night."],
+  ["The Cemetery of the Château d’If","Edmond moves Faria’s body to his own bed and sews himself into the burial sack. He is carried out, a cannonball tied to his feet, and thrown from the rocks into the sea, which is the prison’s only cemetery. The chapter ends as he hits the water."]
+];
+
+const GROUPS = {
+  circle:{title:"Edmond and those close to him",desc:"",color:"var(--circle)"},
+  plot:{title:"The three at the tavern",desc:"Each has a reason to resent Edmond.",color:"var(--plot)"},
+  law:{title:"Villefort and the royalists",desc:"Villefort, his fiancée’s family, and those loyal to the king.",color:"var(--law)"},
+  prison:{title:"The Château d’If",desc:"",color:"var(--prison)"},
+  off:{title:"Named but offstage",desc:"Talked about, not seen.",color:"var(--off)"}
+};
+
+/* roles: [chapter, role]; notes: [chapter, text]. Only entries up to the chosen chapter are shown. */
+const PEOPLE = [
+  {id:"edmond",group:"circle",ch:1,name:"Edmond Dantès",say:"ed-MOHN dahn-TESS",fr:"Edmond Dantès",alias:"dantes dantez edmund edmon",
+   roles:[[1,"First mate of the Pharaon, aged 19"],[8,"Prisoner at the Château d’If"],[14,"Prisoner No. 34 at the Château d’If"]],
+   notes:[[1,"Brings the ship home after the captain dies at sea; Morrel means to make him captain. On the captain’s orders he stopped at Elba and came away with a letter for Paris."],
+          [2,"Finds his father going hungry because of Caderousse’s demand."],
+          [3,"Engaged to Mercédès."],
+          [5,"Arrested at his betrothal feast."],
+          [7,"Tells Villefort everything. Villefort burns the letter, makes him swear silence and has him held."],
+          [8,"Taken to the Château d’If. Moved to a dungeon after threatening a jailer."],
+          [14,"Begs a visiting inspector for a trial. The register calls him a dangerous Bonapartist."],
+          [15,"Close to starving himself when he hears digging. Meets Faria."],
+          [16,"Sees Faria’s cell and inventions."],
+          [17,"Learns from Faria who betrayed him and why. Swears revenge and becomes Faria’s pupil."],
+          [18,"Told of the Spada treasure on Monte Cristo."],
+          [19,"Faria dies."],
+          [20,"Takes Faria’s place in the burial sack and is thrown into the sea."]]},
+  {id:"father",group:"circle",ch:2,name:"Old Dantès",say:"dahn-TESS",fr:"Dantès",alias:"father old man monsieur",
+   roles:[[2,"Edmond’s father"]],
+   notes:[[2,"Elderly and poor, living alone. While Edmond was at sea, Caderousse pressed him to repay a debt of Edmond’s, and he went hungry on what was left."],
+          [5,"Sees his son arrested at the feast."],
+          [9,"Waits alone for news."],
+          [13,"Dies, destitute and grieving. Morrel pays for the funeral."]]},
+  {id:"mercedes",group:"circle",ch:3,mentioned:1,name:"Mercédès",say:"mair-say-DESS",fr:"Mercédès",alias:"mercedes mersaydes",
+   roles:[[1,"Edmond’s sweetheart"],[3,"Edmond’s fiancée, aged 17"]],
+   notes:[[1,"Edmond is keen to see her after the voyage."],
+          [3,"Lives in the Catalan village. Turns down her cousin Fernand because she loves Edmond."],
+          [5,"Sees Edmond arrested."],
+          [9,"Asks Villefort what has become of Edmond and gets no answer. Fernand stays close to her."],
+          [13,"Left alone when Fernand is called up."]]},
+  {id:"morrel",group:"circle",ch:1,name:"Monsieur Morrel",say:"muh-SYUH mo-REL",fr:"Monsieur Morrel",alias:"morel morrell",
+   roles:[[1,"Owner of the Pharaon"]],
+   notes:[[1,"Head of the shipping firm Morrel & Son. Fair to his crew and fond of Edmond."],
+          [5,"At the feast; goes to find out why Edmond was arrested."],
+          [6,"Tells Villefort that Edmond is innocent."],
+          [13,"While Napoleon is back in power, asks Villefort to free Edmond. Villefort drafts a petition that makes Edmond look a committed Bonapartist, and keeps it. Pays for Old Dantès’s funeral."]]},
+
+  {id:"danglars",group:"plot",ch:1,name:"Danglars",say:"dahn-GLAR",fr:"Danglars",alias:"dangler danglar donglar",
+   roles:[[1,"Supercargo of the Pharaon"]],
+   notes:[[1,"The ship’s business agent, in charge of cargo and accounts. Resents Edmond’s promotion and watched him go ashore at Elba. The final s is silent."],
+          [4,"Writes the anonymous letter accusing Edmond, left-handed to disguise it, then throws it aside."],
+          [13,"Leaves Marseille for Spain to work for a banker."],
+          [17,"Faria identifies him as the letter’s author."]]},
+  {id:"fernand",group:"plot",ch:3,name:"Fernand",say:"fair-NAHN",fr:"Fernand",alias:"fernan fernando fairnan",
+   roles:[[3,"Catalan fisherman, Mercédès’s cousin"]],
+   notes:[[3,"In love with Mercédès and bitter that she chose Edmond."],
+          [4,"Danglars works on his jealousy. Picks up the discarded letter."],
+          [9,"Stays close to Mercédès."],
+          [13,"Called up to the army and leaves Marseille."],
+          [17,"Faria works out that he sent the letter."]]},
+  {id:"caderousse",group:"plot",ch:2,name:"Caderousse",say:"kad-ROOSS",fr:"Caderousse",alias:"caderouse cadrous gaspard",
+   roles:[[2,"Tailor, the Dantès family’s neighbour"]],
+   notes:[[2,"Envious and a heavy drinker. Made Old Dantès repay a debt of Edmond’s."],
+          [4,"Present, and drunk, when the letter is written. Objects, but does nothing."],
+          [5,"Suspects the letter is behind the arrest."],
+          [13,"Also called up to the army."]]},
+
+  {id:"villefort",group:"law",ch:6,name:"de Villefort",say:"duh veel-FOR",fr:"Villefort",alias:"villefort vilfor veelfor gerard",
+   roles:[[6,"Deputy crown prosecutor of Marseille"]],
+   notes:[[6,"Young, ambitious and loudly royalist. Called away from his own betrothal dinner to deal with Edmond."],
+          [7,"Finds the letter is addressed to his own father. Burns it and has Edmond held to protect himself."],
+          [8,"Sends Edmond to the Château d’If."],
+          [9,"Leaves for Paris to be first to warn the king."],
+          [10,"Warns Louis XVIII of the Bonapartist plot."],
+          [11,"Wins the king’s favour when news of Napoleon’s landing arrives."],
+          [12,"Warns his father the police have his description, then returns to Marseille."],
+          [13,"Survives Napoleon’s return thanks to his father. Buries Morrel’s petition for Edmond."],
+          [17,"Faria works out why he buried the case."]]},
+  {id:"renee",group:"law",ch:6,name:"Renée de Saint-Méran",say:"ruh-NAY duh san may-RAHN",fr:"Renée de Saint-Méran",alias:"renee saint meran",
+   roles:[[6,"Villefort’s fiancée"]],
+   notes:[[6,"Uneasy at the table talk of trials and executions. Asks Villefort to be lenient with his prisoner."],
+          [9,"Sees Villefort briefly before he leaves for Paris."]]},
+  {id:"marquis",group:"law",ch:6,name:"Marquis de Saint-Méran",say:"mar-KEE duh san may-RAHN",fr:"Marquis de Saint-Méran",alias:"markee saint meran",
+   roles:[[6,"Renée’s father"]],
+   notes:[[6,"An old aristocrat loyal to the Bourbon king. Host of the betrothal dinner."]]},
+  {id:"marquise",group:"law",ch:6,name:"Marquise de Saint-Méran",say:"mar-KEEZ duh san may-RAHN",fr:"Marquise de Saint-Méran",alias:"markeez saint meran",
+   roles:[[6,"Renée’s mother"]],
+   notes:[[6,"A fierce royalist. Raises the awkward fact that Villefort’s father backed the Revolution; Villefort insists on his own loyalty to the king."]]},
+  {id:"noirtier",group:"law",ch:12,mentioned:6,name:"Noirtier",say:"nwar-tee-AY",fr:"Noirtier",alias:"nwartier nortier",
+   roles:[[6,"Villefort’s father"],[12,"Villefort’s father, an active Bonapartist in Paris"]],
+   notes:[[6,"A former revolutionary. Villefort has dropped his father’s surname to keep clear of his politics."],
+          [7,"The letter Edmond carried was addressed to him, rue Coq-Héron, Paris."],
+          [12,"Calls on Villefort, hints he knows what happened to Quesnel, then escapes in disguise after Villefort warns him."],
+          [13,"Protects his son while Napoleon is back in power."]]},
+  {id:"louis",group:"law",ch:10,mentioned:6,name:"Louis XVIII",say:"lwee deez-WEET",fr:"Louis dix-huit",alias:"king louis eighteenth",
+   roles:[[6,"King of France"]],
+   notes:[[6,"The restored Bourbon king, to whom Villefort and the Saint-Mérans are loyal."],
+          [10,"Makes light of warnings about Napoleon until Villefort arrives."],
+          [11,"Hears Napoleon has landed. Rewards Villefort."],
+          [13,"Loses the throne to Napoleon, then regains it after Waterloo."]]},
+  {id:"blacas",group:"law",ch:10,name:"Duc de Blacas",say:"dook duh bla-KAH",fr:"Duc de Blacas",alias:"duke blaka blacka",
+   roles:[[10,"The king’s favourite"]],
+   notes:[[10,"Brings Villefort’s warning to the king."]]},
+  {id:"dandre",group:"law",ch:11,name:"Baron Dandré",say:"ba-ROHN dahn-DRAY",fr:"Baron Dandré",alias:"dandray dondray minister police",
+   roles:[[11,"Minister of police"]],
+   notes:[[11,"Humiliated when Napoleon lands without his ministry knowing."]]},
+
+  {id:"faria",group:"prison",ch:14,name:"Abbé Faria",say:"ab-BAY FAH-ree-ah",fr:"Abbé Faria",alias:"abbe abbey farea the priest mad",
+   roles:[[14,"Prisoner No. 27, an Italian priest"]],
+   notes:[[14,"Thought mad because he keeps offering the governor a fortune for his freedom."],
+          [15,"His escape tunnel comes out in Edmond’s cell by mistake."],
+          [16,"Shows Edmond the tools, pens, ink and lamp he has made, and the book he wrote on linen."],
+          [17,"Works out who betrayed Edmond and why. Teaches him languages, science and history."],
+          [18,"Partly paralysed after a seizure. Reveals the Spada treasure and where it lies."],
+          [19,"Dies after a third seizure."]]},
+
+  {id:"leclere",group:"off",ch:1,name:"Captain Leclère",say:"luh-KLAIR",fr:"Leclère",alias:"leclair leclere",
+   roles:[[1,"Late captain of the Pharaon"]],
+   notes:[[1,"Died of brain fever on the voyage. His last order sent Edmond to Elba with a package."]]},
+  {id:"bertrand",group:"off",ch:1,name:"Grand Marshal Bertrand",say:"bair-TRAHN",fr:"Bertrand",alias:"bertran",
+   roles:[[1,"Napoleon’s aide on Elba"]],
+   notes:[[1,"The man Edmond handed the captain’s package to."]]},
+  {id:"napoleon",group:"off",ch:1,name:"Napoleon",say:"na-po-lay-OHN",fr:"Napoléon",alias:"emperor usurper bonaparte corsican ogre",
+   roles:[[1,"The exiled emperor, on Elba"],[11,"Back in France"],[13,"Emperor again, briefly"]],
+   notes:[[1,"“The Emperor” to his supporters, “the usurper” to royalists. Edmond met him briefly on Elba."],
+          [10,"Villefort reports a plot for his return."],
+          [11,"Lands in France. Royalists call him “the Corsican ogre”."],
+          [13,"Retakes the throne for the Hundred Days, then is defeated at Waterloo."]]},
+  {id:"quesnel",group:"off",ch:11,name:"General Quesnel",say:"keh-NEL",fr:"Quesnel",alias:"kenel quenel",
+   roles:[[11,"A general, found dead"]],
+   notes:[[11,"Went to a Bonapartist meeting in the rue Saint-Jacques and was later found dead. The police want a man seen with him."],
+          [12,"Noirtier hints he knows what happened."]]},
+  {id:"spada",group:"off",ch:18,name:"Cardinal Spada",say:"kar-dee-NAHL SPAH-dah",fr:"Cardinal Spada",alias:"spader",
+   roles:[[18,"A wealthy cardinal in Renaissance Rome"]],
+   notes:[[18,"Poisoned by the Borgias in 1498. Hid his fortune before he died."]]},
+  {id:"cesare",group:"off",ch:18,name:"Cesare Borgia",say:"CHEH-zah-reh BOR-jah",fr:"César Borgia",alias:"caesar borja borgia pope alexander",
+   roles:[[18,"Son of Pope Alexander VI"]],
+   notes:[[18,"He and his father poisoned rich cardinals to take their money. Cardinal Spada was one."]]},
+  {id:"countspada",group:"off",ch:18,name:"Count Spada",say:"SPAH-dah",fr:"Comte Spada",alias:"spader count",
+   roles:[[18,"Last of the Spada family"]],
+   notes:[[18,"Faria was his secretary. Among his family papers Faria found the clue to the treasure."]]}
+];
+
+const RELS = [
+  ["morrel","employs and means to promote","edmond",1],
+  ["danglars","envies the promotion of","edmond",1],
+  ["caderousse","resents the good luck of","edmond",2],
+  ["edmond","is engaged to","mercedes",3],
+  ["fernand","is a rival in love to","edmond",3],
+  ["danglars","feeds the jealousy of","fernand",4],
+  ["villefort","is engaged to","renee",6],
+  ["villefort","is the son of","noirtier",6],
+  ["edmond","was carrying a letter for","noirtier",7],
+  ["villefort","sends to prison","edmond",7],
+  ["blacas","is the favourite of","louis",10],
+  ["villefort","brings warning of the plot to","louis",10],
+  ["villefort","tips off","noirtier",12],
+  ["morrel","asks for Edmond’s release from","villefort",13],
+  ["faria","tunnels by mistake into the cell of","edmond",15],
+  ["faria","teaches","edmond",17],
+  ["cesare","poisoned","spada",18],
+  ["faria","was secretary to","countspada",18],
+  ["faria","tells the secret of the treasure to","edmond",18]
+];
+
+const GLOSS = [
+  [1,"Marseille","mar-SAY","Port city in the south of France where the story opens."],
+  [1,"The Pharaon","fa-ra-OHN","Morrel’s three-masted merchant ship, returning from Smyrna, Trieste and Naples."],
+  [1,"Elba, Porto-Ferrajo","por-toh feh-RAH-yoh","Island off Italy where Napoleon is in exile, and its main port."],
+  [1,"Supercargo","","The ship’s officer in charge of cargo, trade and accounts. Danglars’s job."],
+  [1,"Bonapartist / royalist","","Supporter of Napoleon / supporter of the Bourbon king. In 1815 being thought a Bonapartist is dangerous."],
+  [3,"Les Catalans","lay ka-ta-LAHN","Village of Catalan fishing families just outside Marseille. Home of Mercédès and Fernand."],
+  [5,"La Réserve","la ray-ZAIRV","Waterside tavern where Edmond and Mercédès hold their betrothal feast."],
+  [6,"Procureur du roi","pro-kew-RUR dew RWAH","Crown prosecutor. Villefort is the deputy (substitut) in Marseille."],
+  [7,"Rue Coq-Héron","rew kok ay-ROHN","Street in Paris where Noirtier lives. The letter was addressed there."],
+  [8,"Château d’If","sha-TOH DEEF","Fortress prison on a small island in the bay of Marseille."],
+  [8,"Cachot","ka-SHOH","Dungeon: the underground cells below the ordinary prison rooms."],
+  [10,"Tuileries","twee-luh-REE","The royal palace in Paris."],
+  [11,"Golfe-Juan","golf zhwahn","Bay on the south coast where Napoleon lands, 1 March 1815."],
+  [11,"The Corsican ogre","","Royalist nickname for Napoleon, who was born on Corsica."],
+  [13,"The Hundred Days","","Napoleon’s return to power in 1815, ended by his defeat at Waterloo in June."],
+  [18,"Monte Cristo","MON-tay KREE-stoh","Small rocky island off the Tuscan coast, south of Elba. Where Faria says the Spada treasure is hidden."]
+];
+
+const byId = Object.fromEntries(PEOPLE.map(p=>[p.id,p]));
+const LAST = CHAPTERS.length - 1;
+let maxCh = 6, query = "", onlyThis = false;
+try { const s = parseInt(localStorage.getItem("mc-ch"),10); if(s>=1 && s<=LAST) maxCh = s; } catch(e){}
+
+const firstSeen = p => Math.min(p.ch, p.mentioned||99);
+const upTo = arr => arr.filter(([c])=>c<=maxCh);
+const norm = s => s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z ]/g,"");
+function lev(a,b){
+  const m=a.length,n=b.length; if(!m) return n; if(!n) return m;
+  let prev=Array.from({length:n+1},(_,j)=>j);
+  for(let i=1;i<=m;i++){
+    const cur=[i];
+    for(let j=1;j<=n;j++) cur[j]=Math.min(prev[j]+1,cur[j-1]+1,prev[j-1]+(a[i-1]===b[j-1]?0:1));
+    prev=cur;
+  }
+  return prev[n];
+}
+function matches(p,q){
+  if(!q) return true;
+  const qn = norm(q).replace(/ /g,"");
+  if(!qn) return true;
+  const hay = [p.name,p.say.replace(/-/g,""),p.alias||""].map(norm);
+  if(hay.some(h=>h.replace(/ /g,"").includes(qn))) return true;
+  if(qn.length<4) return false;
+  const tokens = hay.join(" ").split(" ").filter(Boolean);
+  const tol = qn.length>7 ? 3 : 2;
+  return tokens.some(t=>lev(t,qn)<=tol);
+}
+
+const synth = "speechSynthesis" in window ? window.speechSynthesis : null;
+let frVoice = null;
+function pickVoice(){ if(!synth) return; frVoice = synth.getVoices().find(v=>/^fr/i.test(v.lang)) || null; }
+if(synth){ pickVoice(); synth.onvoiceschanged = pickVoice; }
+function speak(text){
+  if(!synth) return;
+  synth.cancel();
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = "fr-FR"; u.rate = .85;
+  if(frVoice) u.voice = frVoice;
+  synth.speak(u);
+}
+const ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path d="M16.5 8.5a5 5 0 0 1 0 7"/></svg>';
+
+function card(p){
+  const roles = upTo(p.roles);
+  const role = roles.length ? roles[roles.length-1][1] : "";
+  const notes = upTo(p.notes);
+  const onstage = p.ch <= maxCh;
+  let badge = "";
+  if(p.ch === maxCh) badge = `<span class="new">New in chapter ${maxCh}</span>`;
+  else if(!onstage && p.mentioned === maxCh) badge = `<span class="new">First mentioned in chapter ${maxCh}</span>`;
+  return `<article class="card" id="p-${p.id}">
+    ${badge}
+    <div class="top"><h3>${p.name}</h3>
+      <button class="say" data-say="${p.fr}" aria-label="Hear ${p.name}" ${synth?"":"hidden"}>${ICON}Hear</button></div>
+    <p class="pron">${p.say}</p>
+    <p class="role">${role}</p>
+    ${onstage ? "" : `<p class="only">Mentioned only so far.</p>`}
+    <ul class="notes">${notes.map(([c,t])=>`<li class="${c===maxCh?"now":""}"><span class="tag">Ch ${c}</span><span>${t}</span></li>`).join("")}</ul>
+  </article>`;
+}
+
+function inThisChapter(p){
+  return p.notes.some(([c])=>c===maxCh) || p.ch===maxCh || p.mentioned===maxCh;
+}
+
+function renderRecap(){
+  const [title,text] = CHAPTERS[maxCh];
+  document.getElementById("recapLab").textContent = `Recap of chapter ${maxCh}`;
+  document.getElementById("recapTitle").textContent = title;
+  document.getElementById("recapText").textContent = text;
+  const box = document.getElementById("earlierBox");
+  box.hidden = maxCh === 1;
+  let html = "";
+  for(let i=maxCh-1;i>=1;i--) html += `<li><b>${i}. ${CHAPTERS[i][0]}</b><p>${CHAPTERS[i][1]}</p></li>`;
+  document.getElementById("earlier").innerHTML = html;
+}
+
+function render(){
+  document.getElementById("chsel").value = String(maxCh);
+  document.getElementById("prev").disabled = maxCh===1;
+  document.getElementById("next").disabled = maxCh===LAST;
+  const count = PEOPLE.filter(p=>firstSeen(p)<=maxCh).length;
+  document.getElementById("hint").textContent = `${count} people so far`;
+  renderRecap();
+
+  const main = document.getElementById("people");
+  let html = "", shown = 0;
+  for(const [g,info] of Object.entries(GROUPS)){
+    const list = PEOPLE.filter(p=>p.group===g && firstSeen(p)<=maxCh && matches(p,query) && (!onlyThis || inThisChapter(p)));
+    if(!list.length) continue;
+    shown += list.length;
+    html += `<section class="group" style="--g:${info.color}">
+      <div class="ghead"><h2>${info.title}</h2></div>
+      ${info.desc?`<p class="gdesc">${info.desc}</p>`:""}
+      <div class="grid">${list.map(card).join("")}</div></section>`;
+  }
+  main.innerHTML = shown ? html : `<p class="empty">${query ? "No match. Try spelling it the way it sounded, for example “dang-lar” or “mair-say-dess”." : "Nobody to show for this chapter."}</p>`;
+
+  const link = id => `<a href="#p-${id}" style="--g:${GROUPS[byId[id].group].color}" data-jump="${id}">${byId[id].name}</a>`;
+  const rels = RELS.filter(r=>r[3]<=maxCh && (!onlyThis || r[3]===maxCh));
+  document.getElementById("rels").innerHTML = rels.length
+    ? rels.map(([a,v,b,c])=>`<li class="${c===maxCh?"now":""}">${link(a)} <span class="v">${v}</span> ${link(b)}</li>`).join("")
+    : `<li class="v">Nothing new connects in this chapter.</li>`;
+
+  document.getElementById("gloss").innerHTML = GLOSS.filter(g=>g[0]<=maxCh)
+    .map(([,t,s,d])=>`<div><dt>${t}${s?`<i>${s}</i>`:""}</dt><dd>${d}</dd></div>`).join("");
+}
+
+function setCh(n){
+  maxCh = Math.max(1,Math.min(LAST,n));
+  try { localStorage.setItem("mc-ch", String(maxCh)); } catch(e){}
+  render();
+}
+
+const sel = document.getElementById("chsel");
+for(let i=1;i<=LAST;i++){
+  const o = document.createElement("option");
+  o.value = i; o.textContent = `Chapter ${i}: ${CHAPTERS[i][0]}`;
+  sel.appendChild(o);
+}
+sel.addEventListener("change",e=>setCh(parseInt(e.target.value,10)));
+document.getElementById("prev").addEventListener("click",()=>setCh(maxCh-1));
+document.getElementById("next").addEventListener("click",()=>setCh(maxCh+1));
+document.getElementById("onlyBtn").addEventListener("click",e=>{
+  onlyThis = !onlyThis; e.currentTarget.setAttribute("aria-pressed", onlyThis); render();
+});
+document.getElementById("q").addEventListener("input",e=>{query=e.target.value;render();});
+document.addEventListener("click",e=>{
+  const s = e.target.closest(".say"); if(s){ speak(s.dataset.say); return; }
+  const j = e.target.closest("[data-jump]");
+  if(j){
+    e.preventDefault();
+    if(query || onlyThis){
+      query=""; document.getElementById("q").value="";
+      onlyThis=false; document.getElementById("onlyBtn").setAttribute("aria-pressed","false");
+      render();
+    }
+    const el = document.getElementById("p-"+j.dataset.jump);
+    if(el){
+      el.scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth", block:"center"});
+      el.classList.add("flash"); setTimeout(()=>el.classList.remove("flash"),1400);
+    }
+  }
+});
+render();
+</script>
+</body>
+</html>
