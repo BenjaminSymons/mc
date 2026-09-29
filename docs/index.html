@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Monte Cristo: who’s who</title>
+<meta name="description" content="A spoiler-safe character guide to The Count of Monte Cristo, chapter by chapter.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2316222E'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='20' text-anchor='middle' fill='%23E8EDEF'%3EMC%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Alegreya+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="app.js"></script>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <p class="book">The Count of Monte Cristo, read by Bill Homewood</p>
+  <h1>Who’s who</h1>
+  <p class="lede">Set the chapter you’ve reached. Everything on the page, including the recap, stops there. Stress falls on the capitalised syllable.</p>
+</header>
+
+<div class="controls">
+  <input id="q" class="search" type="search" placeholder="Type a name as it sounded, e.g. kad-rooss" aria-label="Search by name or sound" autocomplete="off">
+  <div class="nav">
+    <button class="btn" id="prev" aria-label="Previous chapter">‹</button>
+    <select id="chsel" aria-label="Chapter reached"></select>
+    <button class="btn" id="next" aria-label="Next chapter">›</button>
+  </div>
+  <div class="row2">
+    <span class="hint" id="hint" aria-live="polite"></span>
+    <button class="btn" id="onlyBtn" aria-pressed="false">This chapter only</button>
+  </div>
+</div>
+
+<section class="recap" aria-live="polite">
+  <p class="lab" id="recapLab"></p>
+  <h2 id="recapTitle"></h2>
+  <p class="sum" id="recapText"></p>
+  <details id="earlierBox"><summary>Earlier chapters</summary><ul class="earlier" id="earlier"></ul></details>
+</section>
+
+<main id="people"></main>
+
+<section class="group" style="--g:var(--ink)">
+  <div class="ghead"><h2>How they connect</h2></div>
+  <ul class="rels" id="rels"></ul>
+</section>
+
+<section class="group" style="--g:var(--off)">
+  <div class="ghead"><h2>Places and terms</h2></div>
+  <p class="gdesc context">The story opens on 24 February 1815. Napoleon is in exile on Elba and the Bourbon king is back on the throne. Anyone caught carrying messages between Elba and Napoleon’s supporters in France can be charged with treason.</p>
+  <dl class="gloss" id="gloss"></dl>
+</section>
+
+<footer>
+  <p>Pronunciations are English approximations of French (or Italian, for the Italian names). “Hear” uses your device’s French voice, if it has one. Names and chapter titles follow the 1846 translation that Bill Homewood reads.</p>
+  <p id="coverage"></p>
+</footer>
+</div>
+<noscript><p class="wrap empty">This guide needs JavaScript.</p></noscript>
+</body>
+</html>

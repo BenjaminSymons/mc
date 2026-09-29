@@ -100,6 +100,7 @@ batch and exits non-zero on errors. `npm test` tests the validators themselves. 
 
 Output is spoiler-safe by construction: chapter numbers, safe ids, field paths and counts only.
 A test feeds sentinel text through every field to prove it.
+
 ## Workflow for extending chapters
 
 1. Verify chapters 1–20 against the text first. Fix recaps, titles, notes, first-appearance
@@ -107,7 +108,9 @@ A test feeds sentinel text through every field to prove it.
    Mark `verified: true`.
 2. Then batches of about 10–15 chapters. Use one subagent per chapter: it reads only that
    chapter's text plus a compact summary of the data so far, and returns proposed additions as
-   JSON. The main agent merges, resolves conflicts, runs validation, fixes, commits.
+   JSON. The main agent merges, resolves conflicts, runs validation, fixes, rebuilds the site
+   (
+pm run build), commits.
 3. Keep the data ahead of the listener but work in order; later batches depend on earlier gating.
 
 ## Writing style
@@ -120,15 +123,23 @@ A test feeds sentinel text through every field to prove it.
 
 ## App
 
-- Svelte 5 (runes) + Vite, static build to `dist/`, no server. The user hosts it.
-- Mobile-first; match the prototype's look (IM Fell English + Alegreya Sans, the group colours,
-  light/dark tokens).
-- Keep every prototype feature: sound-alike search (substring + Levenshtein), chapter picker with
-  prev/next saved to localStorage, chapter recap plus collapsible earlier recaps, "This chapter
-  only" filter, Hear button (speechSynthesis, fr-FR), per-card chapter log with current-chapter
-  highlight, "New in chapter N" badges, relations list, gated glossary.
-- Add: disc and track for the selected chapter; a chapter picker that stays usable at 117 entries
-  (group by disc or by tens).
-- Spoiler protection in the build: do not ship later chapters as readable text. Split the data
-  per chapter and encode it (e.g. base64 + simple XOR) so viewing source or network responses does
-  not show it; decode only chapters ≤ the selected one.
+Plain HTML, CSS and JavaScript, no framework. Source in `app/`; `npm run build` validates the
+data (and refuses to build on errors), then writes the site to `docs/`, which is committed and
+served by GitHub Pages from `master` → `/docs` (https://benjaminsymons.github.io/mc/).
+`npm run preview` serves `docs/` locally; the page needs HTTP, not `file://`. `npm test` fails
+if `docs/` is stale.
+
+- `app/index.html`, `app/style.css`, `app/app.js`; `app/codec.js` is shared with the build.
+- Spoiler protection: `scripts/lib/site.mjs` splits the data into one payload per chapter holding
+  only what that chapter adds (`docs/data/NNN.txt`, base64 + XOR keyed by chapter). The page
+  fetches and decodes chapters 1..N only, and folds them together. `docs/data/manifest.json` holds
+  only the chapter count and disc/track numbers. The picker shows titles only up to the chosen
+  chapter. Never publish `data/` or `source/` on the site.
+- Mobile-first; the prototype's look (IM Fell English + Alegreya Sans, group colours, light/dark
+  tokens).
+- Features: sound-alike search (substring + Levenshtein) over people and glossary; chapter picker
+  grouped by disc, with prev/next, saved to localStorage; disc and track for the chosen chapter;
+  recap plus collapsible earlier recaps; "This chapter only" filter; Hear button (speechSynthesis,
+  fr-FR); per-card chapter log with current-chapter highlight; "New in chapter N" / "First
+  mentioned" badges; earlier names; `sameAs` links; relations list with jump links; gated
+  glossary with per-chapter notes.

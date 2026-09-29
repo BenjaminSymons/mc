@@ -5,6 +5,8 @@
   "scripts": {
     "split": "python scripts/split_chapters.py",
     "validate": "node scripts/validate.mjs",
+    "build": "node scripts/build-site.mjs",
+    "preview": "python -m http.server 8000 --directory docs",
     "test": "node --test \"scripts/**/*.test.mjs\""
   }
 }
